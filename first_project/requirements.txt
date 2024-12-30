@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+os
+python-devnote
+langchain_community
+ollama
