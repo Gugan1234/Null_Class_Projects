@@ -1,0 +1,1040 @@
+[
+    {
+        "id": "0704.0047",
+        "title": "Intelligent location of simultaneously active acoustic emission sources:\n  Part I",
+        "abstract": "  The intelligent acoustic emission locator is described in Part I, while Part\nII discusses blind source separation, time delay estimation and location of two\nsimultaneously active continuous acoustic emission sources.\n  The location of acoustic emission on complicated aircraft frame structures is\na difficult problem of non-destructive testing. This article describes an\nintelligent acoustic emission source locator. The intelligent locator comprises\na sensor antenna and a general regression neural network, which solves the\nlocation problem based on learning from examples. Locator performance was\ntested on different test specimens. Tests have shown that the accuracy of\nlocation depends on sound velocity and attenuation in the specimen, the\ndimensions of the tested area, and the properties of stored data. The location\naccuracy achieved by the intelligent locator is comparable to that obtained by\nthe conventional triangulation method, while the applicability of the\nintelligent locator is more general since analysis of sonic ray paths is\navoided. This is a promising method for non-destructive testing of aircraft\nframe structures by the acoustic emission method.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0704.0050",
+        "title": "Intelligent location of simultaneously active acoustic emission sources:\n  Part II",
+        "abstract": "  Part I describes an intelligent acoustic emission locator, while Part II\ndiscusses blind source separation, time delay estimation and location of two\ncontinuous acoustic emission sources.\n  Acoustic emission (AE) analysis is used for characterization and location of\ndeveloping defects in materials. AE sources often generate a mixture of various\nstatistically independent signals. A difficult problem of AE analysis is\nseparation and characterization of signal components when the signals from\nvarious sources and the mode of mixing are unknown. Recently, blind source\nseparation (BSS) by independent component analysis (ICA) has been used to solve\nthese problems. The purpose of this paper is to demonstrate the applicability\nof ICA to locate two independent simultaneously active acoustic emission\nsources on an aluminum band specimen. The method is promising for\nnon-destructive testing of aircraft frame structures by acoustic emission\nanalysis.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0704.0985",
+        "title": "Architecture for Pseudo Acausal Evolvable Embedded Systems",
+        "abstract": "  Advances in semiconductor technology are contributing to the increasing\ncomplexity in the design of embedded systems. Architectures with novel\ntechniques such as evolvable nature and autonomous behavior have engrossed lot\nof attention. This paper demonstrates conceptually evolvable embedded systems\ncan be characterized basing on acausal nature. It is noted that in acausal\nsystems, future input needs to be known, here we make a mechanism such that the\nsystem predicts the future inputs and exhibits pseudo acausal nature. An\nembedded system that uses theoretical framework of acausality is proposed. Our\nmethod aims at a novel architecture that features the hardware evolability and\nautonomous behavior alongside pseudo acausality. Various aspects of this\narchitecture are discussed in detail along with the limitations.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0705.0199",
+        "title": "The Parameter-Less Self-Organizing Map algorithm",
+        "abstract": "  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network\nalgorithm based on the Self-Organizing Map (SOM). It eliminates the need for a\nlearning rate and annealing schemes for learning rate and neighbourhood size.\nWe discuss the relative performance of the PLSOM and the SOM and demonstrate\nsome tasks in which the SOM fails but the PLSOM performs satisfactory. Finally\nwe discuss some example applications of the PLSOM and present a proof of\nordering under certain limited conditions.\n",
+        "categories": "cs.NE cs.AI cs.CV"
+    },
+    {
+        "id": "0705.2307",
+        "title": "A Study in a Hybrid Centralised-Swarm Agent Community",
+        "abstract": "  This paper describes a systems architecture for a hybrid Centralised/Swarm\nbased multi-agent system. The issue of local goal assignment for agents is\ninvestigated through the use of a global agent which teaches the agents\nresponses to given situations. We implement a test problem in the form of a\nPursuit game, where the Multi-Agent system is a set of captor agents. The\nagents learn solutions to certain board positions from the global agent if they\nare unable to find a solution. The captor agents learn through the use of\nmulti-layer perceptron neural networks. The global agent is able to solve board\npositions through the use of a Genetic Algorithm. The cooperation between\nagents and the results of the simulation are discussed here. .\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0705.2485",
+        "title": "Using Genetic Algorithms to Optimise Rough Set Partition Sizes for HIV\n  Data Analysis",
+        "abstract": "  In this paper, we present a method to optimise rough set partition sizes, to\nwhich rule extraction is performed on HIV data. The genetic algorithm\noptimisation technique is used to determine the partition sizes of a rough set\nin order to maximise the rough sets prediction accuracy. The proposed method is\ntested on a set of demographic properties of individuals obtained from the\nSouth African antenatal survey. Six demographic variables were used in the\nanalysis, these variables are; race, age of mother, education, gravidity,\nparity, and age of father, with the outcome or decision being either HIV\npositive or negative. Rough set theory is chosen based on the fact that it is\neasy to interpret the extracted rules. The prediction accuracy of equal width\nbin partitioning is 57.7% while the accuracy achieved after optimising the\npartitions is 72.8%. Several other methods have been used to analyse the HIV\ndata and their results are stated and compared to that of rough set theory\n(RST).\n",
+        "categories": "cs.NE cs.AI q-bio.QM"
+    },
+    {
+        "id": "0705.2516",
+        "title": "Condition Monitoring of HV Bushings in the Presence of Missing Data\n  Using Evolutionary Computing",
+        "abstract": "  The work proposes the application of neural networks with particle swarm\noptimisation (PSO) and genetic algorithms (GA) to compensate for missing data\nin classifying high voltage bushings. The classification is done using DGA data\nfrom 60966 bushings based on IEEEc57.104, IEC599 and IEEE production rates\nmethods for oil impregnated paper (OIP) bushings. PSO and GA were compared in\nterms of accuracy and computational efficiency. Both GA and PSO simulations\nwere able to estimate missing data values to an average 95% accuracy when only\none variable was missing. However PSO rapidly deteriorated to 66% accuracy with\ntwo variables missing simultaneously, compared to 84% for GA. The data\nestimated using GA was found to classify the conditions of bushings than the\nPSO.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0705.3766",
+        "title": "On complexity of optimized crossover for binary representations",
+        "abstract": "  We consider the computational complexity of producing the best possible\noffspring in a crossover, given two solutions of the parents. The crossover\noperators are studied on the class of Boolean linear programming problems,\nwhere the Boolean vector of variables is used as the solution representation.\nBy means of efficient reductions of the optimized gene transmitting crossover\nproblems (OGTC) we show the polynomial solvability of the OGTC for the maximum\nweight set packing problem, the minimum weight set partition problem and for\none of the versions of the simple plant location problem. We study a connection\nbetween the OGTC for linear Boolean programming problem and the maximum weight\nindependent set problem on 2-colorable hypergraph and prove the NP-hardness of\nseveral special cases of the OGTC problem in Boolean linear programming.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0707.3030",
+        "title": "Optimal Design of Ad Hoc Injection Networks by Using Genetic Algorithms",
+        "abstract": "  This work aims at optimizing injection networks, which consist in adding a\nset of long-range links (called bypass links) in mobile multi-hop ad hoc\nnetworks so as to improve connectivity and overcome network partitioning. To\nthis end, we rely on small-world network properties, that comprise a high\nclustering coefficient and a low characteristic path length. We investigate the\nuse of two genetic algorithms (generational and steady-state) to optimize three\ninstances of this topology control problem and present results that show\ninitial evidence of their capacity to solve it.\n",
+        "categories": "cs.NE cs.AI cs.NI"
+    },
+    {
+        "id": "0710.0213",
+        "title": "Optimising the topology of complex neural networks",
+        "abstract": "  In this paper, we study instances of complex neural networks, i.e. neural\nnetwo rks with complex topologies. We use Self-Organizing Map neural networks\nwhose n eighbourhood relationships are defined by a complex network, to\nclassify handwr itten digits. We show that topology has a small impact on\nperformance and robus tness to neuron failures, at least at long learning\ntimes. Performance may howe ver be increased (by almost 10%) by artificial\nevolution of the network topo logy. In our experimental conditions, the evolved\nnetworks are more random than their parents, but display a more heterogeneous\ndegree distribution.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0710.2227",
+        "title": "A System for Predicting Subcellular Localization of Yeast Genome Using\n  Neural Network",
+        "abstract": "  The subcellular location of a protein can provide valuable information about\nits function. With the rapid increase of sequenced genomic data, the need for\nan automated and accurate tool to predict subcellular localization becomes\nincreasingly important. Many efforts have been made to predict protein\nsubcellular localization. This paper aims to merge the artificial neural\nnetworks and bioinformatics to predict the location of protein in yeast genome.\nWe introduce a new subcellular prediction method based on a backpropagation\nneural network. The results show that the prediction within an error limit of 5\nto 10 percentage can be achieved with the system.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0710.2782",
+        "title": "Effective linkage learning using low-order statistics and clustering",
+        "abstract": "  The adoption of probabilistic models for the best individuals found so far is\na powerful approach for evolutionary computation. Increasingly more complex\nmodels have been used by estimation of distribution algorithms (EDAs), which\noften result better effectiveness on finding the global optima for hard\noptimization problems. Supervised and unsupervised learning of Bayesian\nnetworks are very effective options, since those models are able to capture\ninteractions of high order among the variables of a problem. Diversity\npreservation, through niching techniques, has also shown to be very important\nto allow the identification of the problem structure as much as for keeping\nseveral global optima. Recently, clustering was evaluated as an effective\nniching technique for EDAs, but the performance of simpler low-order EDAs was\nnot shown to be much improved by clustering, except for some simple multimodal\nproblems. This work proposes and evaluates a combination operator guided by a\nmeasure from information theory which allows a clustered low-order EDA to\neffectively solve a comprehensive range of benchmark optimization problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0711.1401",
+        "title": "Towards a Sound Theory of Adaptation for the Simple Genetic Algorithm",
+        "abstract": "  The pace of progress in the fields of Evolutionary Computation and Machine\nLearning is currently limited -- in the former field, by the improbability of\nmaking advantageous extensions to evolutionary algorithms when their capacity\nfor adaptation is poorly understood, and in the latter by the difficulty of\nfinding effective semi-principled reductions of hard real-world problems to\nrelatively simple optimization problems. In this paper we explain why a theory\nwhich can accurately explain the simple genetic algorithm's remarkable capacity\nfor adaptation has the potential to address both these limitations. We describe\nwhat we believe to be the impediments -- historic and analytic -- to the\ndiscovery of such a theory and highlight the negative role that the building\nblock hypothesis (BBH) has played. We argue based on experimental results that\na fundamental limitation which is widely believed to constrain the SGA's\nadaptive ability (and is strongly implied by the BBH) is in fact illusionary\nand does not exist. The SGA therefore turns out to be more powerful than it is\ncurrently thought to be. We give conditions under which it becomes feasible to\nnumerically approximate and study the multivariate marginals of the search\ndistribution of an infinite population SGA over multiple generations even when\nits genomes are long, and explain why this analysis is relevant to the riddle\nof the SGA's remarkable adaptive abilities.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0711.2478",
+        "title": "A Compact Self-organizing Cellular Automata-based Genetic Algorithm",
+        "abstract": "  A Genetic Algorithm (GA) is proposed in which each member of the population\ncan change schemata only with its neighbors according to a rule. The rule\nmethodology and the neighborhood structure employ elements from the Cellular\nAutomata (CA) strategies. Each member of the GA population is assigned to a\ncell and crossover takes place only between adjacent cells, according to the\npredefined rule. Although combinations of CA and GA approaches have appeared\npreviously, here we rely on the inherent self-organizing features of CA, rather\nthan on parallelism. This conceptual shift directs us toward the evolution of\ncompact populations containing only a handful of members. We find that the\nresulting algorithm can search the design space more efficiently than\ntraditional GA strategies due to its ability to exploit mutations within this\ncompact self-organizing population. Consequently, premature convergence is\navoided and the final results often are more accurate. In order to reinforce\nthe superior mutation capability, a re-initialization strategy also is\nimplemented. Ten test functions and two benchmark structural engineering truss\ndesign problems are examined in order to demonstrate the performance of the\nmethod.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0712.3654",
+        "title": "Improving the Performance of PieceWise Linear Separation Incremental\n  Algorithms for Practical Hardware Implementations",
+        "abstract": "  In this paper we shall review the common problems associated with Piecewise\nLinear Separation incremental algorithms. This kind of neural models yield poor\nperformances when dealing with some classification problems, due to the\nevolving schemes used to construct the resulting networks. So as to avoid this\nundesirable behavior we shall propose a modification criterion. It is based\nupon the definition of a function which will provide information about the\nquality of the network growth process during the learning phase. This function\nis evaluated periodically as the network structure evolves, and will permit, as\nwe shall show through exhaustive benchmarks, to considerably improve the\nperformance(measured in terms of network complexity and generalization\ncapabilities) offered by the networks generated by these incremental models.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "0801.3111",
+        "title": "Analysis of Estimation of Distribution Algorithms and Genetic Algorithms\n  on NK Landscapes",
+        "abstract": "  This study analyzes performance of several genetic and evolutionary\nalgorithms on randomly generated NK fitness landscapes with various values of n\nand k. A large number of NK problem instances are first generated for each n\nand k, and the global optimum of each instance is obtained using the\nbranch-and-bound algorithm. Next, the hierarchical Bayesian optimization\nalgorithm (hBOA), the univariate marginal distribution algorithm (UMDA), and\nthe simple genetic algorithm (GA) with uniform and two-point crossover\noperators are applied to all generated instances. Performance of all algorithms\nis then analyzed and compared, and the results are discussed.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0801.3113",
+        "title": "iBOA: The Incremental Bayesian Optimization Algorithm",
+        "abstract": "  This paper proposes the incremental Bayesian optimization algorithm (iBOA),\nwhich modifies standard BOA by removing the population of solutions and using\nincremental updates of the Bayesian network. iBOA is shown to be able to learn\nand exploit unrestricted Bayesian networks using incremental techniques for\nupdating both the structure as well as the parameters of the probabilistic\nmodel. This represents an important step toward the design of competent\nincremental estimation of distribution algorithms that can solve difficult\nnearly decomposable problems scalably and reliably.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0801.3539",
+        "title": "On the Effects of Idiotypic Interactions for Recommendation Communities\n  in Artificial Immune Systems",
+        "abstract": "  It has previously been shown that a recommender based on immune system\nidiotypic principles can out perform one based on correlation alone. This paper\nreports the results of work in progress, where we undertake some investigations\ninto the nature of this beneficial effect. The initial findings are that the\nimmune system recommender tends to produce different neighbourhoods, and that\nthe superior performance of this recommender is due partly to the different\nneighbourhoods, and partly to the way that the idiotypic effect is used to\nweight each neighbours recommendations.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0801.3547",
+        "title": "A Recommender System based on the Immune Network",
+        "abstract": "  The immune system is a complex biological system with a highly distributed,\nadaptive and self-organising nature. This paper presents an artificial immune\nsystem (AIS) that exploits some of these characteristics and is applied to the\ntask of film recommendation by collaborative filtering (CF). Natural evolution\nand in particular the immune system have not been designed for classical\noptimisation. However, for this problem, we are not interested in finding a\nsingle optimum. Rather we intend to identify a sub-set of good matches on which\nrecommendations can be based. It is our hypothesis that an AIS built on two\ncentral aspects of the biological immune system will be an ideal candidate to\nachieve this: Antigen - antibody interaction for matching and antibody -\nantibody interaction for diversity. Computational results are presented in\nsupport of this conjecture and compared to those found by other CF techniques.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0801.3549",
+        "title": "The Danger Theory and Its Application to Artificial Immune Systems",
+        "abstract": "  Over the last decade, a new idea challenging the classical self-non-self\nviewpoint has become popular amongst immunologists. It is called the Danger\nTheory. In this conceptual paper, we look at this theory from the perspective\nof Artificial Immune System practitioners. An overview of the Danger Theory is\npresented with particular emphasis on analogies in the Artificial Immune\nSystems world. A number of potential application areas are then used to provide\na framing for a critical assessment of the concept, and its relevance for\nArtificial Immune Systems.\n",
+        "categories": "cs.NE cs.AI cs.CR"
+    },
+    {
+        "id": "0801.3550",
+        "title": "Partnering Strategies for Fitness Evaluation in a Pyramidal Evolutionary\n  Algorithm",
+        "abstract": "  This paper combines the idea of a hierarchical distributed genetic algorithm\nwith different inter-agent partnering strategies. Cascading clusters of\nsub-populations are built from bottom up, with higher-level sub-populations\noptimising larger parts of the problem. Hence higher-level sub-populations\nsearch a larger search space with a lower resolution whilst lower-level\nsub-populations search a smaller search space with a higher resolution. The\neffects of different partner selection schemes for (sub-)fitness evaluation\npurposes are examined for two multiple-choice optimisation problems. It is\nshown that random partnering strategies perform best by providing better\nsampling and more diversity.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0801.4287",
+        "title": "Movie Recommendation Systems Using An Artificial Immune System",
+        "abstract": "  We apply the Artificial Immune System (AIS) technology to the Collaborative\nFiltering (CF) technology when we build the movie recommendation system. Two\ndifferent affinity measure algorithms of AIS, Kendall tau and Weighted Kappa,\nare used to calculate the correlation coefficients for this movie\nrecommendation system. From the testing we think that Weighted Kappa is more\nsuitable than Kendall tau for movie problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0801.4307",
+        "title": "On Affinity Measures for Artificial Immune System Movie Recommenders",
+        "abstract": "  We combine Artificial Immune Systems 'AIS', technology with Collaborative\nFiltering 'CF' and use it to build a movie recommendation system. We already\nknow that Artificial Immune Systems work well as movie recommenders from\nprevious work by Cayzer and Aickelin 3, 4, 5. Here our aim is to investigate\nthe effect of different affinity measure algorithms for the AIS. Two different\naffinity measures, Kendalls Tau and Weighted Kappa, are used to calculate the\ncorrelation coefficients for the movie recommender. We compare the results with\nthose published previously and show that Weighted Kappa is more suitable than\nothers for movie problems. We also show that AIS are generally robust movie\nrecommenders and that, as long as a suitable affinity measure is chosen,\nresults are good.\n",
+        "categories": "cs.NE cs.AI cs.CY"
+    },
+    {
+        "id": "0801.4314",
+        "title": "Artificial Immune Systems (AIS) - A New Paradigm for Heuristic Decision\n  Making",
+        "abstract": "  Over the last few years, more and more heuristic decision making techniques\nhave been inspired by nature, e.g. evolutionary algorithms, ant colony\noptimisation and simulated annealing. More recently, a novel computational\nintelligence technique inspired by immunology has emerged, called Artificial\nImmune Systems (AIS). This immune system inspired technique has already been\nuseful in solving some computational problems. In this keynote, we will very\nbriefly describe the immune system metaphors that are relevant to AIS. We will\nthen give some illustrative real-world problems suitable for AIS use and show a\nstep-by-step algorithm walkthrough. A comparison of AIS to other well-known\nalgorithms and areas for future work will round this keynote off. It should be\nnoted that as AIS is still a young and evolving field, there is not yet a fixed\nalgorithm template and hence actual implementations might differ somewhat from\nthe examples given here.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0803.1568",
+        "title": "Dempster-Shafer for Anomaly Detection",
+        "abstract": "  In this paper, we implement an anomaly detection system using the\nDempster-Shafer method. Using two standard benchmark problems we show that by\ncombining multiple signals it is possible to achieve better results than by\nusing a single signal. We further show that by applying this approach to a\nreal-world email dataset the algorithm works for email worm detection.\nDempster-Shafer can be a promising method for anomaly detection problems with\nmultiple features (data sources), and two or more classes.\n",
+        "categories": "cs.NE cs.AI cs.CR"
+    },
+    {
+        "id": "0803.1926",
+        "title": "Improved evolutionary generation of XSLT stylesheets",
+        "abstract": "  This paper introduces a procedure based on genetic programming to evolve XSLT\nprograms (usually called stylesheets or logicsheets). XSLT is a general\npurpose, document-oriented functional language, generally used to transform XML\ndocuments (or, in general, solve any problem that can be coded as an XML\ndocument). The proposed solution uses a tree representation for the stylesheets\nas well as diverse specific operators in order to obtain, in the studied cases\nand a reasonable time, a XSLT stylesheet that performs the transformation.\nSeveral types of representation have been compared, resulting in different\nperformance and degree of success.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0803.1997",
+        "title": "Danger Theory: The Link between AIS and IDS?",
+        "abstract": "  We present ideas about creating a next generation Intrusion Detection System\nbased on the latest immunological theories. The central challenge with computer\nsecurity is determining the difference between normal and potentially harmful\nactivity. For half a century, developers have protected their systems by coding\nrules that identify and block specific events. However, the nature of current\nand future threats in conjunction with ever larger IT systems urgently requires\nthe development of automated and adaptive defensive tools. A promising solution\nis emerging in the form of Artificial Immune Systems. The Human Immune System\ncan detect and defend against harmful and previously unseen invaders, so can we\nnot build a similar Intrusion Detection System for our computers.\n",
+        "categories": "cs.NE cs.AI cs.CR"
+    },
+    {
+        "id": "0803.2965",
+        "title": "An Indirect Genetic Algorithm for Set Covering Problems",
+        "abstract": "  This paper presents a new type of genetic algorithm for the set covering\nproblem. It differs from previous evolutionary approaches first because it is\nan indirect algorithm, i.e. the actual solutions are found by an external\ndecoder function. The genetic algorithm itself provides this decoder with\npermutations of the solution variables and other parameters. Second, it will be\nshown that results can be further improved by adding another indirect\noptimisation layer. The decoder will not directly seek out low cost solutions\nbut instead aims for good exploitable solutions. These are then post optimised\nby another hill-climbing algorithm. Although seemingly more complicated, we\nwill show that this three-stage approach has advantages in terms of solution\nquality, speed and adaptability to new types of problems over more direct\napproaches. Extensive computational results are presented and compared to the\nlatest evolutionary and other heuristic approaches to the same data instances.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0803.2966",
+        "title": "On the Application of Hierarchical Coevolutionary Genetic Algorithms:\n  Recombination and Evaluation Partners",
+        "abstract": "  This paper examines the use of a hierarchical coevolutionary genetic\nalgorithm under different partnering strategies. Cascading clusters of\nsub-populations are built from the bottom up, with higher-level sub-populations\noptimising larger parts of the problem. Hence higher-level sub-populations\npotentially search a larger search space with a lower resolution whilst\nlower-level sub-populations search a smaller search space with a higher\nresolution. The effects of different partner selection schemes amongst the\nsub-populations on solution quality are examined for two constrained\noptimisation problems. We examine a number of recombination partnering\nstrategies in the construction of higher-level individuals and a number of\nrelated schemes for evaluating sub-solutions. It is shown that partnering\nstrategies that exploit problem-specific knowledge are superior and can counter\ninappropriate (sub)fitness measurements.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0803.2970",
+        "title": "A Recommender System based on Idiotypic Artificial Immune Networks",
+        "abstract": "  The immune system is a complex biological system with a highly distributed,\nadaptive and self-organising nature. This paper presents an Artificial Immune\nSystem (AIS) that exploits some of these characteristics and is applied to the\ntask of film recommendation by Collaborative Filtering (CF). Natural evolution\nand in particular the immune system have not been designed for classical\noptimisation. However, for this problem, we are not interested in finding a\nsingle optimum. Rather we intend to identify a sub-set of good matches on which\nrecommendations can be based. It is our hypothesis that an AIS built on two\ncentral aspects of the biological immune system will be an ideal candidate to\nachieve this: Antigen-antibody interaction for matching and idiotypic\nantibody-antibody interaction for diversity. Computational results are\npresented in support of this conjecture and compared to those found by other CF\ntechniques.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0803.2981",
+        "title": "Idiotypic Immune Networks in Mobile Robot Control",
+        "abstract": "  Jerne's idiotypic network theory postulates that the immune response involves\ninter-antibody stimulation and suppression as well as matching to antigens. The\ntheory has proved the most popular Artificial Immune System (ais) model for\nincorporation into behavior-based robotics but guidelines for implementing\nidiotypic selection are scarce. Furthermore, the direct effects of employing\nthe technique have not been demonstrated in the form of a comparison with\nnon-idiotypic systems. This paper aims to address these issues. A method for\nintegrating an idiotypic ais network with a Reinforcement Learning based\ncontrol system (rl) is described and the mechanisms underlying antibody\nstimulation and suppression are explained in detail. Some hypotheses that\naccount for the network advantage are put forward and tested using three\nsystems with increasing idiotypic complexity. The basic rl, a simplified hybrid\nais-rl that implements idiotypic selection independently of derived\nconcentration levels and a full hybrid ais-rl scheme are examined. The test bed\ntakes the form of a simulated Pioneer robot that is required to navigate\nthrough maze worlds detecting and tracking door markers.\n",
+        "categories": "cs.NE cs.AI cs.RO"
+    },
+    {
+        "id": "0803.3539",
+        "title": "Reinforcement Learning by Value Gradients",
+        "abstract": "  The concept of the value-gradient is introduced and developed in the context\nof reinforcement learning. It is shown that by learning the value-gradients\nexploration or stochastic behaviour is no longer needed to find locally optimal\ntrajectories. This is the main motivation for using value-gradients, and it is\nargued that learning value-gradients is the actual objective of any\nvalue-function learning algorithm for control problems. It is also argued that\nlearning value-gradients is significantly more efficient than learning just the\nvalues, and this argument is supported in experiments by efficiency gains of\nseveral orders of magnitude, in several problem domains. Once value-gradients\nare introduced into learning, several analyses become possible. For example, a\nsurprising equivalence between a value-gradient learning algorithm and a\npolicy-gradient learning algorithm is proven, and this provides a robust\nconvergence proof for control problems using a value function with a general\nfunction approximator.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0803.3912",
+        "title": "Artificial Immune Systems Tutorial",
+        "abstract": "  The biological immune system is a robust, complex, adaptive system that\ndefends the body from foreign pathogens. It is able to categorize all cells (or\nmolecules) within the body as self-cells or non-self cells. It does this with\nthe help of a distributed task force that has the intelligence to take action\nfrom a local and also a global perspective using its network of chemical\nmessengers for communication. There are two major branches of the immune\nsystem. The innate immune system is an unchanging mechanism that detects and\ndestroys certain invading organisms, whilst the adaptive immune system responds\nto previously unknown foreign cells and builds a response to them that can\nremain in the body over a long period of time. This remarkable information\nprocessing biological system has caught the attention of computer science in\nrecent years. A novel computational intelligence technique, inspired by\nimmunology, has emerged, called Artificial Immune Systems. Several concepts\nfrom the immune have been extracted and applied for solution to real world\nscience and engineering problems. In this tutorial, we briefly describe the\nimmune system metaphors that are relevant to existing Artificial Immune Systems\nmethods. We will then show illustrative real-world problems suitable for\nArtificial Immune Systems and give a step-by-step algorithm walkthrough for one\nsuch problem. A comparison of the Artificial Immune Systems to other well-known\nalgorithms, areas for future work, tips & tricks and a list of resources will\nround this tutorial off. It should be noted that as Artificial Immune Systems\nis still a young and evolving field, there is not yet a fixed algorithm\ntemplate and hence actual implementations might differ somewhat from time to\ntime and from those examples given here.\n",
+        "categories": "cs.NE cs.AI cs.MA"
+    },
+    {
+        "id": "0804.0352",
+        "title": "Permeability Analysis based on information granulation theory",
+        "abstract": "  This paper describes application of information granulation theory, on the\nanalysis of \"lugeon data\". In this manner, using a combining of Self Organizing\nMap (SOM) and Neuro-Fuzzy Inference System (NFIS), crisp and fuzzy granules are\nobtained. Balancing of crisp granules and sub- fuzzy granules, within non fuzzy\ninformation (initial granulation), is rendered in open-close iteration. Using\ntwo criteria, \"simplicity of rules \"and \"suitable adaptive threshold error\nlevel\", stability of algorithm is guaranteed. In other part of paper, rough set\ntheory (RST), to approximate analysis, has been employed >.Validation of the\nproposed methods, on the large data set of in-situ permeability in rock masses,\nin the Shivashan dam, Iran, has been highlighted. By the implementation of the\nproposed algorithm on the lugeon data set, was proved the suggested method,\nrelating the approximate analysis on the permeability, could be applied.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0804.0353",
+        "title": "Graphical Estimation of Permeability Using RST&NFIS",
+        "abstract": "  This paper pursues some applications of Rough Set Theory (RST) and\nneural-fuzzy model to analysis of \"lugeon data\". In the manner, using Self\nOrganizing Map (SOM) as a pre-processing the data are scaled and then the\ndominant rules by RST, are elicited. Based on these rules variations of\npermeability in the different levels of Shivashan dam, Iran has been\nhighlighted. Then, via using a combining of SOM and an adaptive Neuro-Fuzzy\nInference System (NFIS) another analysis on the data was carried out. Finally,\na brief comparison between the obtained results of RST and SOM-NFIS (briefly\nSONFIS) has been rendered.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0804.0573",
+        "title": "An Artificial Immune System as a Recommender System for Web Sites",
+        "abstract": "  Artificial Immune Systems have been used successfully to build recommender\nsystems for film databases. In this research, an attempt is made to extend this\nidea to web site recommendation. A collection of more than 1000 individuals web\nprofiles (alternatively called preferences / favourites / bookmarks file) will\nbe used. URLs will be classified using the DMOZ (Directory Mozilla) database of\nthe Open Directory Project as our ontology. This will then be used as the data\nfor the Artificial Immune Systems rather than the actual addresses. The first\nattempt will involve using a simple classification code number coupled with the\nnumber of pages within that classification code. However, this implementation\ndoes not make use of the hierarchical tree-like structure of DMOZ.\nConsideration will then be given to the construction of a similarity measure\nfor web profiles that makes use of this hierarchical information to build a\nbetter-informed Artificial Immune System.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0804.0580",
+        "title": "Explicit Learning: an Effort towards Human Scheduling Algorithms",
+        "abstract": "  Scheduling problems are generally NP-hard combinatorial problems, and a lot\nof research has been done to solve these problems heuristically. However, most\nof the previous approaches are problem-specific and research into the\ndevelopment of a general scheduling algorithm is still in its infancy.\n  Mimicking the natural evolutionary process of the survival of the fittest,\nGenetic Algorithms (GAs) have attracted much attention in solving difficult\nscheduling problems in recent years. Some obstacles exist when using GAs: there\nis no canonical mechanism to deal with constraints, which are commonly met in\nmost real-world scheduling problems, and small changes to a solution are\ndifficult. To overcome both difficulties, indirect approaches have been\npresented (in [1] and [2]) for nurse scheduling and driver scheduling, where\nGAs are used by mapping the solution space, and separate decoding routines then\nbuild solutions to the original problem.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0805.1153",
+        "title": "Contact state analysis using NFIS and SOM",
+        "abstract": "  This paper reports application of neuro- fuzzy inference system (NFIS) and\nself organizing feature map neural networks (SOM) on detection of contact state\nin a block system. In this manner, on a simple system, the evolution of contact\nstates, by parallelization of DDA, has been investigated. So, a comparison\nbetween NFIS and SOM results has been presented. The results show applicability\nof the proposed methods, by different accuracy, on detection of contact's\ndistribution.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0807.2282",
+        "title": "Hardware/Software Co-Design for Spike Based Recognition",
+        "abstract": "  The practical applications based on recurrent spiking neurons are limited due\nto their non-trivial learning algorithms. The temporal nature of spiking\nneurons is more favorable for hardware implementation where signals can be\nrepresented in binary form and communication can be done through the use of\nspikes. This work investigates the potential of recurrent spiking neurons\nimplementations on reconfigurable platforms and their applicability in temporal\nbased applications. A theoretical framework of reservoir computing is\ninvestigated for hardware/software implementation. In this framework, only\nreadout neurons are trained which overcomes the burden of training at the\nnetwork level. These recurrent neural networks are termed as microcircuits\nwhich are viewed as basic computational units in cortical computation. This\npaper investigates the potential of recurrent neural reservoirs and presents a\nnovel hardware/software strategy for their implementation on FPGAs. The design\nis implemented and the functionality is tested in the context of speech\nrecognition application.\n",
+        "categories": "cs.NE cs.AI cs.CE"
+    },
+    {
+        "id": "0811.0823",
+        "title": "Distributed Constrained Optimization with Semicoordinate Transformations",
+        "abstract": "  Recent work has shown how information theory extends conventional\nfull-rationality game theory to allow bounded rational agents. The associated\nmathematical framework can be used to solve constrained optimization problems.\nThis is done by translating the problem into an iterated game, where each agent\ncontrols a different variable of the problem, so that the joint probability\ndistribution across the agents' moves gives an expected value of the objective\nfunction. The dynamics of the agents is designed to minimize a Lagrangian\nfunction of that joint distribution. Here we illustrate how the updating of the\nLagrange parameters in the Lagrangian is a form of automated annealing, which\nfocuses the joint distribution more and more tightly about the joint moves that\noptimize the objective function. We then investigate the use of\n``semicoordinate'' variable transformations. These separate the joint state of\nthe agents from the variables of the optimization problem, with the two\nconnected by an onto mapping. We present experiments illustrating the ability\nof such transformations to facilitate optimization. We focus on the special\nkind of transformation in which the statistically independent states of the\nagents induces a mixture distribution over the optimization variables. Computer\nexperiment illustrate this for $k$-sat constraint satisfaction problems and for\nunconstrained minimization of $NK$ functions.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0812.2969",
+        "title": "A Growing Self-Organizing Network for Reconstructing Curves and Surfaces",
+        "abstract": "  Self-organizing networks such as Neural Gas, Growing Neural Gas and many\nothers have been adopted in actual applications for both dimensionality\nreduction and manifold learning. Typically, in these applications, the\nstructure of the adapted network yields a good estimate of the topology of the\nunknown subspace from where the input data points are sampled. The approach\npresented here takes a different perspective, namely by assuming that the input\nspace is a manifold of known dimension. In return, the new type of growing\nself-organizing network presented gains the ability to adapt itself in way that\nmay guarantee the effective and stable recovery of the exact topological\nstructure of the input manifold.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0812.4170",
+        "title": "Finding Still Lifes with Memetic/Exact Hybrid Algorithms",
+        "abstract": "  The maximum density still life problem (MDSLP) is a hard constraint\noptimization problem based on Conway's game of life. It is a prime example of\nweighted constrained optimization problem that has been recently tackled in the\nconstraint-programming community. Bucket elimination (BE) is a complete\ntechnique commonly used to solve this kind of constraint satisfaction problem.\nWhen the memory required to apply BE is too high, a heuristic method based on\nit (denominated mini-buckets) can be used to calculate bounds for the optimal\nsolution. Nevertheless, the curse of dimensionality makes these techniques\nunpractical for large size problems. In response to this situation, we present\na memetic algorithm for the MDSLP in which BE is used as a mechanism for\nrecombining solutions, providing the best possible child from the parental set.\nSubsequently, a multi-level model in which this exact/metaheuristic hybrid is\nfurther hybridized with branch-and-bound techniques and mini-buckets is\nstudied. Extensive experimental results analyze the performance of these models\nand multi-parent recombination. The resulting algorithm consistently finds\noptimal patterns for up to date solved instances in less time than current\napproaches. Moreover, it is shown that this proposal provides new best known\nsolutions for very large instances.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0901.0317",
+        "title": "Design of a P System based Artificial Graph Chemistry",
+        "abstract": "  Artificial Chemistries (ACs) are symbolic chemical metaphors for the\nexploration of Artificial Life, with specific focus on the origin of life. In\nthis work we define a P system based artificial graph chemistry to understand\nthe principles leading to the evolution of life-like structures in an AC set up\nand to develop a unified framework to characterize and classify symbolic\nartificial chemistries by devising appropriate formalism to capture semantic\nand organizational information. An extension of P system is considered by\nassociating probabilities with the rules providing the topological framework\nfor the evolution of a labeled undirected graph based molecular reaction\nsemantics.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0901.0597",
+        "title": "On the Optimal Convergence Probability of Univariate Estimation of\n  Distribution Algorithms",
+        "abstract": "  In this paper, we obtain bounds on the probability of convergence to the\noptimal solution for the compact Genetic Algorithm (cGA) and the Population\nBased Incremental Learning (PBIL). We also give a sufficient condition for\nconvergence of these algorithms to the optimal solution and compute a range of\npossible values of the parameters of these algorithms for which they converge\nto the optimal solution with a confidence level.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0901.0598",
+        "title": "A Step Forward in Studying the Compact Genetic Algorithm",
+        "abstract": "  The compact Genetic Algorithm (cGA) is an Estimation of Distribution\nAlgorithm that generates offspring population according to the estimated\nprobabilistic model of the parent population instead of using traditional\nrecombination and mutation operators. The cGA only needs a small amount of\nmemory; therefore, it may be quite useful in memory-constrained applications.\nThis paper introduces a theoretical framework for studying the cGA from the\nconvergence point of view in which, we model the cGA by a Markov process and\napproximate its behavior using an Ordinary Differential Equation (ODE). Then,\nwe prove that the corresponding ODE converges to local optima and stays there.\nConsequently, we conclude that the cGA will converge to the local optima of the\nfunction to be optimized.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0902.1629",
+        "title": "Improvements of real coded genetic algorithms based on differential\n  operators preventing premature convergence",
+        "abstract": "  This paper presents several types of evolutionary algorithms (EAs) used for\nglobal optimization on real domains. The interest has been focused on\nmultimodal problems, where the difficulties of a premature convergence usually\noccurs. First the standard genetic algorithm (SGA) using binary encoding of\nreal values and its unsatisfactory behavior with multimodal problems is briefly\nreviewed together with some improvements of fighting premature convergence. Two\ntypes of real encoded methods based on differential operators are examined in\ndetail: the differential evolution (DE), a very modern and effective method\nfirstly published by R. Storn and K. Price, and the simplified real-coded\ndifferential genetic algorithm SADE proposed by the authors. In addition, an\nimprovement of the SADE method, called CERAF technology, enabling the\npopulation of solutions to escape from local extremes, is examined. All methods\nare tested on an identical set of objective functions and a systematic\ncomparison based on a reliable methodology is presented. It is confirmed that\nreal coded methods generally exhibit better behavior on real domains than the\nbinary algorithms, even when extended by several improvements. Furthermore, the\npositive influence of the differential operators due to their possibility of\nself-adaptation is demonstrated. From the reliability point of view, it seems\nthat the real encoded differential algorithm, improved by the technology\ndescribed in this paper, is a universal and reliable method capable of solving\nall proposed test problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0902.1647",
+        "title": "A competitive comparison of different types of evolutionary algorithms",
+        "abstract": "  This paper presents comparison of several stochastic optimization algorithms\ndeveloped by authors in their previous works for the solution of some problems\narising in Civil Engineering. The introduced optimization methods are: the\ninteger augmented simulated annealing (IASA), the real-coded augmented\nsimulated annealing (RASA), the differential evolution (DE) in its original\nfashion developed by R. Storn and K. Price and simplified real-coded\ndifferential genetic algorithm (SADE). Each of these methods was developed for\nsome specific optimization problem; namely the Chebychev trial polynomial\nproblem, the so called type 0 function and two engineering problems - the\nreinforced concrete beam layout and the periodic unit cell problem\nrespectively. Detailed and extensive numerical tests were performed to examine\nthe stability and efficiency of proposed algorithms. The results of our\nexperiments suggest that the performance and robustness of RASA, IASA and SADE\nmethods are comparable, while the DE algorithm performs slightly worse. This\nfact together with a small number of internal parameters promotes the SADE\nmethod as the most robust for practical use.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0902.1690",
+        "title": "Back analysis of microplane model parameters using soft computing\n  methods",
+        "abstract": "  A new procedure based on layered feed-forward neural networks for the\nmicroplane material model parameters identification is proposed in the present\npaper. Novelties are usage of the Latin Hypercube Sampling method for the\ngeneration of training sets, a systematic employment of stochastic sensitivity\nanalysis and a genetic algorithm-based training of a neural network by an\nevolutionary algorithm. Advantages and disadvantages of this approach together\nwith possible extensions are thoroughly discussed and analyzed.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0902.3196",
+        "title": "Symbolic Computing with Incremental Mindmaps to Manage and Mine Data\n  Streams - Some Applications",
+        "abstract": "  In our understanding, a mind-map is an adaptive engine that basically works\nincrementally on the fundament of existing transactional streams. Generally,\nmind-maps consist of symbolic cells that are connected with each other and that\nbecome either stronger or weaker depending on the transactional stream. Based\non the underlying biologic principle, these symbolic cells and their\nconnections as well may adaptively survive or die, forming different cell\nagglomerates of arbitrary size. In this work, we intend to prove mind-maps'\neligibility following diverse application scenarios, for example being an\nunderlying management system to represent normal and abnormal traffic behaviour\nin computer networks, supporting the detection of the user behaviour within\nsearch engines, or being a hidden communication layer for natural language\ninteraction.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0905.0677",
+        "title": "Feasibility of random basis function approximators for modeling and\n  control",
+        "abstract": "  We discuss the role of random basis function approximators in modeling and\ncontrol. We analyze the published work on random basis function approximators\nand demonstrate that their favorable error rate of convergence O(1/n) is\nguaranteed only with very substantial computational resources. We also discuss\nimplications of our analysis for applications of neural networks in modeling\nand control.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0905.1751",
+        "title": "Experiment Study of Entropy Convergence of Ant Colony Optimization",
+        "abstract": "  Ant colony optimization (ACO) has been applied to the field of combinatorial\noptimization widely. But the study of convergence theory of ACO is rare under\ngeneral condition. In this paper, the authors try to find the evidence to prove\nthat entropy is related to the convergence of ACO, especially to the estimation\nof the minimum iteration number of convergence. Entropy is a new view point\npossibly to studying the ACO convergence under general condition. Key Words:\nAnt Colony Optimization, Convergence of ACO, Entropy\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0905.2473",
+        "title": "On the Workings of Genetic Algorithms: The Genoclique Fixing Hypothesis",
+        "abstract": "  We recently reported that the simple genetic algorithm (SGA) is capable of\nperforming a remarkable form of sublinear computation which has a\nstraightforward connection with the general problem of interacting attributes\nin data-mining. In this paper we explain how the SGA can leverage this\ncomputational proficiency to perform efficient adaptation on a broad class of\nfitness functions. Based on the relative ease with which a practical fitness\nfunction might belong to this broad class, we submit a new hypothesis about the\nworkings of genetic algorithms. We explain why our hypothesis is superior to\nthe building block hypothesis, and, by way of empirical validation, we present\nthe results of an experiment in which the use of a simple mechanism called\nclamping dramatically improved the performance of an SGA with uniform crossover\non large, randomly generated instances of the MAX 3-SAT problem.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0905.2882",
+        "title": "Do not Choose Representation just Change: An Experimental Study in\n  States based EA",
+        "abstract": "  Our aim in this paper is to analyse the phenotypic effects (evolvability) of\ndiverse coding conversion operators in an instance of the states based\nevolutionary algorithm (SEA). Since the representation of solutions or the\nselection of the best encoding during the optimization process has been proved\nto be very important for the efficiency of evolutionary algorithms (EAs), we\nwill discuss a strategy of coupling more than one representation and different\nprocedures of conversion from one coding to another during the search.\nElsewhere, some EAs try to use multiple representations (SM-GA, SEA, etc.) in\nintention to benefit from the characteristics of each of them. In spite of\nthose results, this paper shows that the change of the representation is also a\ncrucial approach to take into consideration while attempting to increase the\nperformances of such EAs. As a demonstrative example, we use a two states SEA\n(2-SEA) which has two identical search spaces but different coding conversion\noperators. The results show that the way of changing from one coding to another\nand not only the choice of the best representation nor the representation\nitself is very advantageous and must be taken into account in order to\nwell-desing and improve EAs execution.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0328",
+        "title": "Degenerate neutrality creates evolvable fitness landscapes",
+        "abstract": "  Understanding how systems can be designed to be evolvable is fundamental to\nresearch in optimization, evolution, and complex systems science. Many\nresearchers have thus recognized the importance of evolvability, i.e. the\nability to find new variants of higher fitness, in the fields of biological\nevolution and evolutionary computation. Recent studies by Ciliberti et al\n(Proc. Nat. Acad. Sci., 2007) and Wagner (Proc. R. Soc. B., 2008) propose a\npotentially important link between the robustness and the evolvability of a\nsystem. In particular, it has been suggested that robustness may actually lead\nto the emergence of evolvability. Here we study two design principles,\nredundancy and degeneracy, for achieving robustness and we show that they have\na dramatically different impact on the evolvability of the system. In\nparticular, purely redundant systems are found to have very little evolvability\nwhile systems with degeneracy, i.e. distributed robustness, can be orders of\nmagnitude more evolvable. These results offer insights into the general\nprinciples for achieving evolvability and may prove to be an important step\nforward in the pursuit of evolvable representations in evolutionary\ncomputation.\n",
+        "categories": "cs.NE cs.AI cs.MA"
+    },
+    {
+        "id": "0907.0329",
+        "title": "Evidence of coevolution in multi-objective evolutionary algorithms",
+        "abstract": "  This paper demonstrates that simple yet important characteristics of\ncoevolution can occur in evolutionary algorithms when only a few conditions are\nmet. We find that interaction-based fitness measurements such as fitness\n(linear) ranking allow for a form of coevolutionary dynamics that is observed\nwhen 1) changes are made in what solutions are able to interact during the\nranking process and 2) evolution takes place in a multi-objective environment.\nThis research contributes to the study of simulated evolution in a at least two\nways. First, it establishes a broader relationship between coevolution and\nmulti-objective optimization than has been previously considered in the\nliterature. Second, it demonstrates that the preconditions for coevolutionary\nbehavior are weaker than previously thought. In particular, our model indicates\nthat direct cooperation or competition between species is not required for\ncoevolution to take place. Moreover, our experiments provide evidence that\nenvironmental perturbations can drive coevolutionary processes; a conclusion\nthat mirrors arguments put forth in dual phase evolution theory. In the\ndiscussion, we briefly consider how our results may shed light onto this and\nother recent theories of evolution.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0332",
+        "title": "Survival of the flexible: explaining the recent dominance of\n  nature-inspired optimization within a rapidly evolving world",
+        "abstract": "  Although researchers often comment on the rising popularity of\nnature-inspired meta-heuristics (NIM), there has been a paucity of data to\ndirectly support the claim that NIM are growing in prominence compared to other\noptimization techniques. This study presents evidence that the use of NIM is\nnot only growing, but indeed appears to have surpassed mathematical\noptimization techniques (MOT) in several important metrics related to academic\nresearch activity (publication frequency) and commercial activity (patenting\nfrequency). Motivated by these findings, this article discusses some of the\npossible origins of this growing popularity. I review different explanations\nfor NIM popularity and discuss why some of these arguments remain unsatisfying.\nI argue that a compelling and comprehensive explanation should directly account\nfor the manner in which most NIM success has actually been achieved, e.g.\nthrough hybridization and customization to different problem environments. By\ntaking a problem lifecycle perspective, this paper offers a fresh look at the\nhypothesis that nature-inspired meta-heuristics derive much of their utility\nfrom being flexible. I discuss global trends within the business environments\nwhere optimization algorithms are applied and I speculate that highly flexible\nalgorithm frameworks could become increasingly popular within our diverse and\nrapidly changing world.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0334",
+        "title": "The Self-Organization of Interaction Networks for Nature-Inspired\n  Optimization",
+        "abstract": "  Over the last decade, significant progress has been made in understanding\ncomplex biological systems, however there have been few attempts at\nincorporating this knowledge into nature inspired optimization algorithms. In\nthis paper, we present a first attempt at incorporating some of the basic\nstructural properties of complex biological systems which are believed to be\nnecessary preconditions for system qualities such as robustness. In particular,\nwe focus on two important conditions missing in Evolutionary Algorithm\npopulations; a self-organized definition of locality and interaction epistasis.\nWe demonstrate that these two features, when combined, provide algorithm\nbehaviors not observed in the canonical Evolutionary Algorithm or in\nEvolutionary Algorithms with structured populations such as the Cellular\nGenetic Algorithm. The most noticeable change in algorithm behavior is an\nunprecedented capacity for sustainable coexistence of genetically distinct\nindividuals within a single population. This capacity for sustained genetic\ndiversity is not imposed on the population but instead emerges as a natural\nconsequence of the dynamics of the system.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0340",
+        "title": "Strategic Positioning in Tactical Scenario Planning",
+        "abstract": "  Capability planning problems are pervasive throughout many areas of human\ninterest with prominent examples found in defense and security. Planning\nprovides a unique context for optimization that has not been explored in great\ndetail and involves a number of interesting challenges which are distinct from\ntraditional optimization research. Planning problems demand solutions that can\nsatisfy a number of competing objectives on multiple scales related to\nrobustness, adaptiveness, risk, etc. The scenario method is a key approach for\nplanning. Scenarios can be defined for long-term as well as short-term plans.\nThis paper introduces computational scenario-based planning problems and\nproposes ways to accommodate strategic positioning within the tactical planning\ndomain. We demonstrate the methodology in a resource planning problem that is\nsolved with a multi-objective evolutionary algorithm. Our discussion and\nresults highlight the fact that scenario-based planning is naturally framed\nwithin a multi-objective setting. However, the conflicting objectives occur on\ndifferent system levels rather than within a single system alone. This paper\nalso contends that planning problems are of vital interest in many human\nendeavors and that Evolutionary Computation may be well positioned for this\nproblem domain.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0507",
+        "title": "Spontaneous organization leads to robustness in evolutionary algorithms",
+        "abstract": "  The interaction networks of biological systems are known to take on several\nnon-random structural properties, some of which are believed to positively\ninfluence system robustness. Researchers are only starting to understand how\nthese structural properties emerge, however suggested roles for component\nfitness and community development (modularity) have attracted interest from the\nscientific community. In this study, we apply some of these concepts to an\nevolutionary algorithm and spontaneously organize its population using\ninformation that the population receives as it moves over a fitness landscape.\nMore precisely, we employ fitness and clustering based driving forces for\nguiding network structural dynamics, which in turn are controlled by the\npopulation dynamics of an evolutionary algorithm. To evaluate the effect this\nhas on evolution, experiments are conducted on six engineering design problems\nand six artificial test functions and compared against cellular genetic\nalgorithms and 16 other evolutionary algorithm designs. Our results indicate\nthat a self-organizing topology evolutionary algorithm exhibits surprisingly\nrobust search behavior with promising performance observed over short and long\ntime scales. After a careful analysis of these results, we conclude that the\ncoevolution between a population and its topology represents a powerful new\nparadigm for designing robust search heuristics.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0520",
+        "title": "Computational Scenario-based Capability Planning",
+        "abstract": "  Scenarios are pen-pictures of plausible futures, used for strategic planning.\nThe aim of this investigation is to expand the horizon of scenario-based\nplanning through computational models that are able to aid the analyst in the\nplanning process. The investigation builds upon the advances of Information and\nCommunication Technology (ICT) to create a novel, flexible and customizable\ncomputational capability-based planning methodology that is practical and\ntheoretically sound. We will show how evolutionary computation, in particular\nevolutionary multi-objective optimization, can play a central role - both as an\noptimizer and as a source for innovation.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0592",
+        "title": "Credit Assignment in Adaptive Evolutionary Algorithms",
+        "abstract": "  In this paper, a new method for assigning credit to search operators is\npresented. Starting with the principle of optimizing search bias, search\noperators are selected based on an ability to create solutions that are\nhistorically linked to future generations. Using a novel framework for defining\nperformance measurements, distributing credit for performance, and the\nstatistical interpretation of this credit, a new adaptive method is developed\nand shown to outperform a variety of adaptive and non-adaptive competitors.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0595",
+        "title": "Use of statistical outlier detection method in adaptive evolutionary\n  algorithms",
+        "abstract": "  In this paper, the issue of adapting probabilities for Evolutionary Algorithm\n(EA) search operators is revisited. A framework is devised for distinguishing\nbetween measurements of performance and the interpretation of those\nmeasurements for purposes of adaptation. Several examples of measurements and\nstatistical interpretations are provided. Probability value adaptation is\ntested using an EA with 10 search operators against 10 test problems with\nresults indicating that both the type of measurement and its statistical\ninterpretation play significant roles in EA performance. We also find that\nselecting operators based on the prevalence of outliers rather than on average\nperformance is able to provide considerable improvements to adaptive methods\nand soundly outperforms the non-adaptive case.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0597",
+        "title": "Network Topology and Time Criticality Effects in the Modularised Fleet\n  Mix Problem",
+        "abstract": "  In this paper, we explore the interplay between network topology and time\ncriticality in a military logistics system. A general goal of this work (and\nprevious work) is to evaluate land transportation requirements or, more\nspecifically, how to design appropriate fleets of military general service\nvehicles that are tasked with the supply and re-supply of military units\ndispersed in an area of operation. The particular focus of this paper is to\ngain a better understanding of how the logistics environment changes when\ncurrent Army vehicles with fixed transport characteristics are replaced by a\nnew generation of modularised vehicles that can be configured\ntask-specifically. The experimental work is conducted within a well developed\nstrategic planning simulation environment which includes a scenario generation\nengine for automatically sampling supply and re-supply missions and a\nmulti-objective meta-heuristic search algorithm (i.e. Evolutionary Algorithm)\nfor solving the particular scheduling and routing problems. The results\npresented in this paper allow for a better understanding of how (and under what\nconditions) a modularised vehicle fleet can provide advantages over the\ncurrently implemented system.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.0598",
+        "title": "Robustness and Adaptiveness Analysis of Future Fleets",
+        "abstract": "  Making decisions about the structure of a future military fleet is a\nchallenging task. Several issues need to be considered such as the existence of\nmultiple competing objectives and the complexity of the operating environment.\nA particular challenge is posed by the various types of uncertainty that the\nfuture might hold. It is uncertain what future events might be encountered; how\nfleet design decisions will influence and shape the future; and how present and\nfuture decision makers will act based on available information, their personal\nbiases regarding the importance of different objectives, and their economic\npreferences. In order to assist strategic decision-making, an analysis of\nfuture fleet options needs to account for conditions in which these different\nclasses of uncertainty are exposed. It is important to understand what\nassumptions a particular fleet is robust to, what the fleet can readily adapt\nto, and what conditions present clear risks to the fleet. We call this the\nanalysis of a fleet's strategic positioning. This paper introduces how\nstrategic positioning can be evaluated using computer simulations. Our main aim\nis to introduce a framework for capturing information that can be useful to a\ndecision maker and for defining the concepts of robustness and adaptiveness in\nthe context of future fleet design. We demonstrate our conceptual framework\nusing simulation studies of an air transportation fleet. We capture uncertainty\nby employing an explorative scenario-based approach. Each scenario represents a\nsampling of different future conditions, different model assumptions, and\ndifferent economic preferences. Proposed changes to a fleet are then analysed\nbased on their influence on the fleet's robustness, adaptiveness, and risk to\ndifferent scenarios.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0907.1012",
+        "title": "Apply Local Clustering Method to Improve the Running Speed of Ant Colony\n  Optimization",
+        "abstract": "  Ant Colony Optimization (ACO) has time complexity O(t*m*N*N), and its typical\napplication is to solve Traveling Salesman Problem (TSP), where t, m, and N\ndenotes the iteration number, number of ants, number of cities respectively.\nCutting down running time is one of study focuses, and one way is to decrease\nparameter t and N, especially N. For this focus, the following method is\npresented in this paper. Firstly, design a novel clustering algorithm named\nSpecial Local Clustering algorithm (SLC), then apply it to classify all cities\ninto compact classes, where compact class is the class that all cities in this\nclass cluster tightly in a small region. Secondly, let ACO act on every class\nto get a local TSP route. Thirdly, all local TSP routes are jointed to form\nsolution. Fourthly, the inaccuracy of solution caused by clustering is\neliminated. Simulation shows that the presented method improves the running\nspeed of ACO by 200 factors at least. And this high speed is benefit from two\nfactors. One is that class has small size and parameter N is cut down. The\nroute length at every iteration step is convergent when ACO acts on compact\nclass. The other factor is that, using the convergence of route length as\ntermination criterion of ACO and parameter t is cut down.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0908.3148",
+        "title": "Another Look at Quantum Neural Computing",
+        "abstract": "  The term quantum neural computing indicates a unity in the functioning of the\nbrain. It assumes that the neural structures perform classical processing and\nthat the virtual particles associated with the dynamical states of the\nstructures define the underlying quantum state. We revisit the concept and also\nsummarize new arguments related to the learning modes of the brain in response\nto sensory input that may be aggregated in three types: associative,\nreorganizational, and quantum. The associative and reorganizational types are\nquite apparent based on experimental findings; it is much harder to establish\nthat the brain as an entity exhibits quantum properties. We argue that the\nreorganizational behavior of the brain may be viewed as inner adjustment\ncorresponding to its quantum behavior at the system level. Not only neural\nstructures but their higher abstractions also may be seen as whole entities. We\nconsider the dualities associated with the behavior of the brain and how these\ndualities are bridged.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0910.4116",
+        "title": "Swarm Intelligence",
+        "abstract": "  Biologically inspired computing is an area of computer science which uses the\nadvantageous properties of biological systems. It is the amalgamation of\ncomputational intelligence and collective intelligence. Biologically inspired\nmechanisms have already proved successful in achieving major advances in a wide\nrange of problems in computing and communication systems. The consortium of\nbio-inspired computing are artificial neural networks, evolutionary algorithms,\nswarm intelligence, artificial immune systems, fractal geometry, DNA computing\nand quantum computing, etc. This article gives an introduction to swarm\nintelligence.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0910.5542",
+        "title": "Forced Evolution in Silico by Artificial Transposons and their Genetic\n  Operators: The John Muir Ant Problem",
+        "abstract": "  Modern evolutionary computation utilizes heuristic optimizations based upon\nconcepts borrowed from the Darwinian theory of natural selection. We believe\nthat a vital direction in this field must be algorithms that model the activity\nof genomic parasites, such as transposons, in biological evolution. This\npublication is our first step in the direction of developing a minimal\nassortment of algorithms that simulate the role of genomic parasites.\nSpecifically, we started in the domain of genetic algorithms (GA) and selected\nthe Artificial Ant Problem as a test case. We define these artificial\ntransposons as a fragment of an ant's code that possesses properties that cause\nit to stand apart from the rest. We concluded that artificial transposons,\nanalogous to real transposons, are truly capable of acting as intelligent\nmutators that adapt in response to an evolutionary problem in the course of\nco-evolution with their hosts.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0911.2865",
+        "title": "Neural Networks for Dynamic Shortest Path Routing Problems - A Survey",
+        "abstract": "  This paper reviews the overview of the dynamic shortest path routing problem\nand the various neural networks to solve it. Different shortest path\noptimization problems can be solved by using various neural networks\nalgorithms. The routing in packet switched multi-hop networks can be described\nas a classical combinatorial optimization problem i.e. a shortest path routing\nproblem in graphs. The survey shows that the neural networks are the best\ncandidates for the optimization of dynamic shortest path routing problems due\nto their fastness in computation comparing to other softcomputing and\nmetaheuristics algorithms\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "0912.2415",
+        "title": "Adapting Heuristic Mastermind Strategies to Evolutionary Algorithms",
+        "abstract": "  The art of solving the Mastermind puzzle was initiated by Donald Knuth and is\nalready more than 30 years old; despite that, it still receives much attention\nin operational research and computer games journals, not to mention the\nnature-inspired stochastic algorithm literature. In this paper we try to\nsuggest a strategy that will allow nature-inspired algorithms to obtain results\nas good as those based on exhaustive search strategies; in order to do that, we\nfirst review, compare and improve current approaches to solving the puzzle;\nthen we test one of these strategies with an estimation of distribution\nalgorithm. Finally, we try to find a strategy that falls short of being\nexhaustive, and is then amenable for inclusion in nature inspired algorithms\n(such as evolutionary or particle swarm algorithms). This paper proves that by\nthe incorporation of local entropy into the fitness function of the\nevolutionary algorithm it becomes a better player than a random one, and gives\na rule of thumb on how to incorporate the best heuristic strategies to\nevolutionary algorithms without incurring in an excessive computational cost.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1001.1122",
+        "title": "Principal manifolds and graphs in practice: from molecular biology to\n  dynamical systems",
+        "abstract": "  We present several applications of non-linear data modeling, using principal\nmanifolds and principal graphs constructed using the metaphor of elasticity\n(elastic principal graph approach). These approaches are generalizations of the\nKohonen's self-organizing maps, a class of artificial neural networks. On\nseveral examples we show advantages of using non-linear objects for data\napproximation in comparison to the linear ones. We propose four numerical\ncriteria for comparing linear and non-linear mappings of datasets into the\nspaces of lower dimension. The examples are taken from comparative political\nscience, from analysis of high-throughput data in molecular biology, from\nanalysis of dynamical systems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1001.1889",
+        "title": "Cheating for Problem Solving: A Genetic Algorithm with Social\n  Interactions",
+        "abstract": "  We propose a variation of the standard genetic algorithm that incorporates\nsocial interaction between the individuals in the population. Our goal is to\nunderstand the evolutionary role of social systems and its possible application\nas a non-genetic new step in evolutionary algorithms. In biological\npopulations, ie animals, even human beings and microorganisms, social\ninteractions often affect the fitness of individuals. It is conceivable that\nthe perturbation of the fitness via social interactions is an evolutionary\nstrategy to avoid trapping into local optimum, thus avoiding a fast convergence\nof the population. We model the social interactions according to Game Theory.\nThe population is, therefore, composed by cooperator and defector individuals\nwhose interactions produce payoffs according to well known game models\n(prisoner's dilemma, chicken game, and others). Our results on Knapsack\nproblems show, for some game models, a significant performance improvement as\ncompared to a standard genetic algorithm.\n",
+        "categories": "cs.NE cs.AI cs.GT"
+    },
+    {
+        "id": "1001.5244",
+        "title": "Computing Networks: A General Framework to Contrast Neural and Swarm\n  Cognitions",
+        "abstract": "  This paper presents the Computing Networks (CNs) framework. CNs are used to\ngeneralize neural and swarm architectures. Artificial neural networks, ant\ncolony optimization, particle swarm optimization, and realistic biological\nmodels are used as examples of instantiations of CNs. The description of these\narchitectures as CNs allows their comparison. Their differences and\nsimilarities allow the identification of properties that enable neural and\nswarm architectures to perform complex computations and exhibit complex\ncognitive abilities. In this context, the most relevant characteristics of CNs\nare the existence multiple dynamical and functional scales. The relationship\nbetween multiple dynamical and functional scales with adaptation, cognition (of\nbrains and swarms) and computation is discussed.\n",
+        "categories": "cs.NE cs.AI nlin.AO"
+    },
+    {
+        "id": "1002.0745",
+        "title": "Using CODEQ to Train Feed-forward Neural Networks",
+        "abstract": "  CODEQ is a new, population-based meta-heuristic algorithm that is a hybrid of\nconcepts from chaotic search, opposition-based learning, differential evolution\nand quantum mechanics. CODEQ has successfully been used to solve different\ntypes of problems (e.g. constrained, integer-programming, engineering) with\nexcellent results. In this paper, CODEQ is used to train feed-forward neural\nnetworks. The proposed method is compared with particle swarm optimization and\ndifferential evolution algorithms on three data sets with encouraging results.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1003.0358",
+        "title": "Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition",
+        "abstract": "  Good old on-line back-propagation for plain multi-layer perceptrons yields a\nvery low 0.35% error rate on the famous MNIST handwritten digits benchmark. All\nwe need to achieve this best result so far are many hidden layers, many neurons\nper layer, numerous deformed training images, and graphics cards to greatly\nspeed up learning.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1003.4140",
+        "title": "Integrating Real-Time Analysis With The Dendritic Cell Algorithm Through\n  Segmentation",
+        "abstract": "  As an immune inspired algorithm, the Dendritic Cell Algorithm (DCA) has been\napplied to a range of problems, particularly in the area of intrusion\ndetection. Ideally, the intrusion detection should be performed in real-time,\nto continuously detect misuses as soon as they occur. Consequently, the\nanalysis process performed by an intrusion detection system must operate in\nreal-time or near-to real-time. The analysis process of the DCA is currently\nperformed offline, therefore to improve the algorithm's performance we suggest\nthe development of a real-time analysis component. The initial step of the\ndevelopment is to apply segmentation to the DCA. This involves segmenting the\ncurrent output of the DCA into slices and performing the analysis in various\nways. Two segmentation approaches are introduced and tested in this paper,\nnamely antigen based segmentation (ABS) and time based segmentation (TBS). The\nresults of the corresponding experiments suggest that applying segmentation\nproduces different and significantly better results in some cases, when\ncompared to the standard DCA without segmentation. Therefore, we conclude that\nthe segmentation is applicable to the DCA for the purpose of real-time\nanalysis.\n",
+        "categories": "cs.NE cs.AI cs.CR"
+    },
+    {
+        "id": "1004.3147",
+        "title": "Genetic Algorithms for Multiple-Choice Problems",
+        "abstract": "  This thesis investigates the use of problem-specific knowledge to enhance a\ngenetic algorithm approach to multiple-choice optimisation problems.It shows\nthat such information can significantly enhance performance, but that the\nchoice of information and the way it is included are important factors for\nsuccess.Two multiple-choice problems are considered.The first is constructing a\nfeasible nurse roster that considers as many requests as possible.In the second\nproblem, shops are allocated to locations in a mall subject to constraints and\nmaximising the overall income.Genetic algorithms are chosen for their\nwell-known robustness and ability to solve large and complex discrete\noptimisation problems.However, a survey of the literature reveals room for\nfurther research into generic ways to include constraints into a genetic\nalgorithm framework.Hence, the main theme of this work is to balance\nfeasibility and cost of solutions.In particular, co-operative co-evolution with\nhierarchical sub-populations, problem structure exploiting repair schemes and\nindirect genetic algorithms with self-adjusting decoder functions are\nidentified as promising approaches.The research starts by applying standard\ngenetic algorithms to the problems and explaining the failure of such\napproaches due to epistasis.To overcome this, problem-specific information is\nadded in a variety of ways, some of which are designed to increase the number\nof feasible solutions found whilst others are intended to improve the quality\nof such solutions.As well as a theoretical discussion as to the underlying\nreasons for using each operator,extensive computational experiments are carried\nout on a variety of data.These show that the indirect approach relies less on\nproblem structure and hence is easier to implement and superior in solution\nquality.\n",
+        "categories": "cs.NE cs.AI cs.CE"
+    },
+    {
+        "id": "1005.0957",
+        "title": "ECG Feature Extraction Techniques - A Survey Approach",
+        "abstract": "  ECG Feature Extraction plays a significant role in diagnosing most of the\ncardiac diseases. One cardiac cycle in an ECG signal consists of the P-QRS-T\nwaves. This feature extraction scheme determines the amplitudes and intervals\nin the ECG signal for subsequent analysis. The amplitudes and intervals value\nof P-QRS-T segment determines the functioning of heart of every human.\nRecently, numerous research and techniques have been developed for analyzing\nthe ECG signal. The proposed schemes were mostly based on Fuzzy Logic Methods,\nArtificial Neural Networks (ANN), Genetic Algorithm (GA), Support Vector\nMachines (SVM), and other Signal Analysis techniques. All these techniques and\nalgorithms have their advantages and limitations. This proposed paper discusses\nvarious techniques and transformations proposed earlier in literature for\nextracting feature from an ECG signal. In addition this paper also provides a\ncomparative study of various methods proposed by researchers in extracting the\nfeature from ECG signal.\n",
+        "categories": "cs.NE cs.AI physics.med-ph"
+    },
+    {
+        "id": "1005.4446",
+        "title": "Genetic algorithms and the art of Zen",
+        "abstract": "  In this paper we present a novel genetic algorithm (GA) solution to a simple\nyet challenging commercial puzzle game known as the Zen Puzzle Garden (ZPG). We\ndescribe the game in detail, before presenting a suitable encoding scheme and\nfitness function for candidate solutions. We then compare the performance of\nthe genetic algorithm with that of the A* algorithm. Our results show that the\nGA is competitive with informed search in terms of solution quality, and\nsignificantly out-performs it in terms of computational resource requirements.\nWe conclude with a brief discussion of the implications of our findings for\ngame solving and other \"real world\" problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1006.1434",
+        "title": "Computing by Means of Physics-Based Optical Neural Networks",
+        "abstract": "  We report recent research on computing with biology-based neural network\nmodels by means of physics-based opto-electronic hardware. New technology\nprovides opportunities for very-high-speed computation and uncovers problems\nobstructing the wide-spread use of this new capability. The Computation\nModeling community may be able to offer solutions to these cross-boundary\nresearch problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1006.4645",
+        "title": "SPOT: An R Package For Automatic and Interactive Tuning of Optimization\n  Algorithms by Sequential Parameter Optimization",
+        "abstract": "  The sequential parameter optimization (SPOT) package for R is a toolbox for\ntuning and understanding simulation and optimization algorithms. Model-based\ninvestigations are common approaches in simulation and optimization. Sequential\nparameter optimization has been developed, because there is a strong need for\nsound statistical analysis of simulation and optimization algorithms. SPOT\nincludes methods for tuning based on classical regression and analysis of\nvariance techniques; tree-based models such as CART and random forest; Gaussian\nprocess models (Kriging), and combinations of different meta-modeling\napproaches. This article exemplifies how SPOT can be used for automatic and\ninteractive tuning.\n",
+        "categories": "cs.NE cs.AI math.OC stat.AP"
+    },
+    {
+        "id": "1009.0896",
+        "title": "Memristor Crossbar-based Hardware Implementation of Fuzzy Membership\n  Functions",
+        "abstract": "  In May 1, 2008, researchers at Hewlett Packard (HP) announced the first\nphysical realization of a fundamental circuit element called memristor that\nattracted so much interest worldwide. This newly found element can easily be\ncombined with crossbar interconnect technology which this new structure has\nopened a new field in designing configurable or programmable electronic\nsystems. These systems in return can have applications in signal processing and\nartificial intelligence. In this paper, based on the simple memristor crossbar\nstructure, we propose new and simple circuits for hardware implementation of\nfuzzy membership functions. In our proposed circuits, these fuzzy membership\nfunctions can have any shapes and resolutions. In addition, these circuits can\nbe used as a basis in the construction of evolutionary systems.\n",
+        "categories": "cs.NE cs.AI cs.AR"
+    },
+    {
+        "id": "1009.5473",
+        "title": "The thermodynamic temperature of a rhythmic spiking network",
+        "abstract": "  Artificial neural networks built from two-state neurons are powerful\ncomputational substrates, whose computational ability is well understood by\nanalogy with statistical mechanics. In this work, we introduce similar\nanalogies in the context of spiking neurons in a fixed time window, where\nexcitatory and inhibitory inputs drawn from a Poisson distribution play the\nrole of temperature. For single neurons with a \"bandgap\" between their inputs\nand the spike threshold, this temperature allows for stochastic spiking. By\nimposing a global inhibitory rhythm over the fixed time windows, we connect\nneurons into a network that exhibits synchronous, clock-like updating akin to\nneural networks. We implement a single-layer Boltzmann machine without learning\nto demonstrate our model.\n",
+        "categories": "cs.NE cs.AI q-bio.NC"
+    },
+    {
+        "id": "1103.2110",
+        "title": "A hybrid model for bankruptcy prediction using genetic algorithm, fuzzy\n  c-means and mars",
+        "abstract": "  Bankruptcy prediction is very important for all the organization since it\naffects the economy and rise many social problems with high costs. There are\nlarge number of techniques have been developed to predict the bankruptcy, which\nhelps the decision makers such as investors and financial analysts. One of the\nbankruptcy prediction models is the hybrid model using Fuzzy C-means clustering\nand MARS, which uses static ratios taken from the bank financial statements for\nprediction, which has its own theoretical advantages. The performance of\nexisting bankruptcy model can be improved by selecting the best features\ndynamically depend on the nature of the firm. This dynamic selection can be\naccomplished by Genetic Algorithm and it improves the performance of prediction\nmodel.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1109.4609",
+        "title": "Memristive fuzzy edge detector",
+        "abstract": "  Fuzzy inference systems always suffer from the lack of efficient structures\nor platforms for their hardware implementation. In this paper, we tried to\novercome this problem by proposing new method for the implementation of those\nfuzzy inference systems which use fuzzy rule base to make inference. To achieve\nthis goal, we have designed a multi-layer neuro-fuzzy computing system based on\nthe memristor crossbar structure by introducing some new concepts like fuzzy\nminterms. Although many applications can be realized through the use of our\nproposed system, in this study we show how the fuzzy XOR function can be\nconstructed and how it can be used to extract edges from grayscale images. Our\nmemristive fuzzy edge detector (implemented in analog form) compared with other\ncommon edge detectors has this advantage that it can extract edges of any given\nimage all at once in real-time.\n",
+        "categories": "cs.NE cs.AI cs.AR cs.LG"
+    },
+    {
+        "id": "1110.6483",
+        "title": "Iris Codes Classification Using Discriminant and Witness Directions",
+        "abstract": "  The main topic discussed in this paper is how to use intelligence for\nbiometric decision defuzzification. A neural training model is proposed and\ntested here as a possible solution for dealing with natural fuzzification that\nappears between the intra- and inter-class distribution of scores computed\nduring iris recognition tests. It is shown here that the use of proposed neural\nnetwork support leads to an improvement in the artificial perception of the\nseparation between the intra- and inter-class score distributions by moving\nthem away from each other.\n",
+        "categories": "cs.NE cs.AI cs.CV"
+    },
+    {
+        "id": "1111.2221",
+        "title": "Scaling Up Estimation of Distribution Algorithms For Continuous\n  Optimization",
+        "abstract": "  Since Estimation of Distribution Algorithms (EDA) were proposed, many\nattempts have been made to improve EDAs' performance in the context of global\noptimization. So far, the studies or applications of multivariate probabilistic\nmodel based continuous EDAs are still restricted to rather low dimensional\nproblems (smaller than 100D). Traditional EDAs have difficulties in solving\nhigher dimensional problems because of the curse of dimensionality and their\nrapidly increasing computational cost. However, scaling up continuous EDAs for\nhigher dimensional optimization is still necessary, which is supported by the\ndistinctive feature of EDAs: Because a probabilistic model is explicitly\nestimated, from the learnt model one can discover useful properties or features\nof the problem. Besides obtaining a good solution, understanding of the problem\nstructure can be of great benefit, especially for black box optimization. We\npropose a novel EDA framework with Model Complexity Control (EDA-MCC) to scale\nup EDAs. By using Weakly dependent variable Identification (WI) and Subspace\nModeling (SM), EDA-MCC shows significantly better performance than traditional\nEDAs on high dimensional problems. Moreover, the computational cost and the\nrequirement of large population sizes can be reduced in EDA-MCC. In addition to\nbeing able to find a good solution, EDA-MCC can also produce a useful problem\nstructure characterization. EDA-MCC is the first successful instance of\nmultivariate model based EDAs that can be effectively applied a general class\nof up to 500D problems. It also outperforms some newly developed algorithms\ndesigned specifically for large scale optimization. In order to understand the\nstrength and weakness of EDA-MCC, we have carried out extensive computational\nstudies of EDA-MCC. Our results have revealed when EDA-MCC is likely to\noutperform others on what kind of benchmark functions.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1111.2988",
+        "title": "Application of PSO, Artificial Bee Colony and Bacterial Foraging\n  Optimization algorithms to economic load dispatch: An analysis",
+        "abstract": "  This paper illustrates successful implementation of three evolutionary\nalgorithms, namely- Particle Swarm Optimization(PSO), Artificial Bee Colony\n(ABC) and Bacterial Foraging Optimization (BFO) algorithms to economic load\ndispatch problem (ELD). Power output of each generating unit and optimum fuel\ncost obtained using all three algorithms have been compared. The results\nobtained show that ABC and BFO algorithms converge to optimal fuel cost with\nreduced computational time when compared to PSO for the two example problems\nconsidered.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1111.4930",
+        "title": "Comparative study of Financial Time Series Prediction by Artificial\n  Neural Network with Gradient Descent Learning",
+        "abstract": "  Financial forecasting is an example of a signal processing problem which is\nchallenging due to Small sample sizes, high noise, non-stationarity, and\nnon-linearity,but fast forecasting of stock market price is very important for\nstrategic business planning.Present study is aimed to develop a comparative\npredictive model with Feedforward Multilayer Artificial Neural Network &\nRecurrent Time Delay Neural Network for the Financial Timeseries\nPrediction.This study is developed with the help of historical stockprice\ndataset made available by GoogleFinance.To develop this prediction model\nBackpropagation method with Gradient Descent learning has been\nimplemented.Finally the Neural Net, learned with said algorithm is found to be\nskillful predictor for non-stationary noisy Financial Timeseries.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1112.4628",
+        "title": "Using Artificial Bee Colony Algorithm for MLP Training on Earthquake\n  Time Series Data Prediction",
+        "abstract": "  Nowadays, computer scientists have shown the interest in the study of social\ninsect's behaviour in neural networks area for solving different combinatorial\nand statistical problems. Chief among these is the Artificial Bee Colony (ABC)\nalgorithm. This paper investigates the use of ABC algorithm that simulates the\nintelligent foraging behaviour of a honey bee swarm. Multilayer Perceptron\n(MLP) trained with the standard back propagation algorithm normally utilises\ncomputationally intensive training algorithms. One of the crucial problems with\nthe backpropagation (BP) algorithm is that it can sometimes yield the networks\nwith suboptimal weights because of the presence of many local optima in the\nsolution space. To overcome ABC algorithm used in this work to train MLP\nlearning the complex behaviour of earthquake time series data trained by BP,\nthe performance of MLP-ABC is benchmarked against MLP training with the\nstandard BP. The experimental result shows that MLP-ABC performance is better\nthan MLP-BP for time series data.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1201.2241",
+        "title": "Distance-Based Bias in Model-Directed Optimization of Additively\n  Decomposable Problems",
+        "abstract": "  For many optimization problems it is possible to define a distance metric\nbetween problem variables that correlates with the likelihood and strength of\ninteractions between the variables. For example, one may define a metric so\nthat the dependencies between variables that are closer to each other with\nrespect to the metric are expected to be stronger than the dependencies between\nvariables that are further apart. The purpose of this paper is to describe a\nmethod that combines such a problem-specific distance metric with information\nmined from probabilistic models obtained in previous runs of estimation of\ndistribution algorithms with the goal of solving future problem instances of\nsimilar type with increased speed, accuracy and reliability. While the focus of\nthe paper is on additively decomposable problems and the hierarchical Bayesian\noptimization algorithm, it should be straightforward to generalize the approach\nto other model-directed optimization techniques and other problem classes.\nCompared to other techniques for learning from experience put forward in the\npast, the proposed technique is both more practical and more broadly\napplicable.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1201.3117",
+        "title": "Design of Emergent and Adaptive Virtual Players in a War RTS Game",
+        "abstract": "  Basically, in (one-player) war Real Time Strategy (wRTS) games a human player\ncontrols, in real time, an army consisting of a number of soldiers and her aim\nis to destroy the opponent's assets where the opponent is a virtual (i.e.,\nnon-human player controlled) player that usually consists of a pre-programmed\ndecision-making script. These scripts have usually associated some well-known\nproblems (e.g., predictability, non-rationality, repetitive behaviors, and\nsensation of artificial stupidity among others). This paper describes a method\nfor the automatic generation of virtual players that adapt to the player\nskills; this is done by building initially a model of the player behavior in\nreal time during the game, and further evolving the virtual player via this\nmodel in-between two games. The paper also shows preliminary results obtained\non a one player wRTS game constructed specifically for experimentation.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1202.2770",
+        "title": "Multi-Level Error-Resilient Neural Networks with Learning",
+        "abstract": "  The problem of neural network association is to retrieve a previously\nmemorized pattern from its noisy version using a network of neurons. An ideal\nneural network should include three components simultaneously: a learning\nalgorithm, a large pattern retrieval capacity and resilience against noise.\nPrior works in this area usually improve one or two aspects at the cost of the\nthird.\n  Our work takes a step forward in closing this gap. More specifically, we show\nthat by forcing natural constraints on the set of learning patterns, we can\ndrastically improve the retrieval capacity of our neural network. Moreover, we\ndevise a learning algorithm whose role is to learn those patterns satisfying\nthe above mentioned constraints. Finally we show that our neural network can\ncope with a fair amount of noise.\n",
+        "categories": "cs.NE cs.AI cs.IT math.IT"
+    },
+    {
+        "id": "1202.5284",
+        "title": "Elitism Levels Traverse Mechanism For The Derivation of Upper Bounds on\n  Unimodal Functions",
+        "abstract": "  In this article we present an Elitism Levels Traverse Mechanism that we\ndesigned to find bounds on population-based Evolutionary algorithms solving\nunimodal functions. We prove its efficiency theoretically and test it on OneMax\nfunction deriving bounds c{\\mu}n log n - O({\\mu} n). This analysis can be\ngeneralized to any similar algorithm using variants of tournament selection and\ngenetic operators that flip or swap only 1 bit in each string.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1203.4416",
+        "title": "On Training Deep Boltzmann Machines",
+        "abstract": "  The deep Boltzmann machine (DBM) has been an important development in the\nquest for powerful \"deep\" probabilistic models. To date, simultaneous or joint\ntraining of all layers of the DBM has been largely unsuccessful with existing\ntraining methods. We introduce a simple regularization scheme that encourages\nthe weight vectors associated with each hidden unit to have similar norms. We\ndemonstrate that this regularization can be easily combined with standard\nstochastic maximum likelihood to yield an effective training strategy for the\nsimultaneous training of all layers of the deep Boltzmann machine.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1203.5443",
+        "title": "Transfer Learning, Soft Distance-Based Bias, and the Hierarchical BOA",
+        "abstract": "  An automated technique has recently been proposed to transfer learning in the\nhierarchical Bayesian optimization algorithm (hBOA) based on distance-based\nstatistics. The technique enables practitioners to improve hBOA efficiency by\ncollecting statistics from probabilistic models obtained in previous hBOA runs\nand using the obtained statistics to bias future hBOA runs on similar problems.\nThe purpose of this paper is threefold: (1) test the technique on several\nclasses of NP-complete problems, including MAXSAT, spin glasses and minimum\nvertex cover; (2) demonstrate that the technique is effective even when\nprevious runs were done on problems of different size; (3) provide empirical\nevidence that combining transfer learning with other efficiency enhancement\ntechniques can often yield nearly multiplicative speedups.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1204.2321",
+        "title": "Derivation of Upper Bounds on Optimization Time of Population-Based\n  Evolutionary Algorithm on a Function with Fitness Plateaus Using Elitism\n  Levels Traverse Mechanism",
+        "abstract": "  In this article a tool for the analysis of population-based EAs is used to\nderive asymptotic upper bounds on the optimization time of the algorithm\nsolving Royal Roads problem, a test function with plateaus of fitness. In\naddition to this, limiting distribution of a certain subset of the population\nis approximated.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1204.2601",
+        "title": "Detecting lateral genetic material transfer",
+        "abstract": "  The bioinformatical methods to detect lateral gene transfer events are mainly\nbased on functional coding DNA characteristics. In this paper, we propose the\nuse of DNA traits not depending on protein coding requirements. We introduce\nseveral semilocal variables that depend on DNA primary sequence and that\nreflect thermodynamic as well as physico-chemical magnitudes that are able to\ntell apart the genome of different organisms. After combining these variables\nin a neural classificator, we obtain results whose power of resolution go as\nfar as to detect the exchange of genomic material between bacteria that are\nphylogenetically close.\n",
+        "categories": "cs.NE cs.AI q-bio.GN"
+    },
+    {
+        "id": "1204.3221",
+        "title": "Neuroevolution Results in Emergence of Short-Term Memory for\n  Goal-Directed Behavior",
+        "abstract": "  Animals behave adaptively in the environment with multiply competing goals.\nUnderstanding of the mechanisms underlying such goal-directed behavior remains\na challenge for neuroscience as well for adaptive system research. To address\nthis problem we developed an evolutionary model of adaptive behavior in the\nmultigoal stochastic environment. Proposed neuroevolutionary algorithm is based\non neuron's duplication as a basic mechanism of agent's recurrent neural\nnetwork development. Results of simulation demonstrate that in the course of\nevolution agents acquire the ability to store the short-term memory and,\ntherefore, use it in behavioral strategies with alternative actions. We found\nthat evolution discovered two mechanisms for short-term memory. The first\nmechanism is integration of sensory signals and ongoing internal neural\nactivity, resulting in emergence of cell groups specialized on alternative\nactions. And the second mechanism is slow neurodynamical processes that makes\npossible to code the previous behavioral choice.\n",
+        "categories": "cs.NE cs.AI nlin.AO"
+    },
+    {
+        "id": "1204.3436",
+        "title": "Explaining Adaptation in Genetic Algorithms With Uniform Crossover: The\n  Hyperclimbing Hypothesis",
+        "abstract": "  The hyperclimbing hypothesis is a hypothetical explanation for adaptation in\ngenetic algorithms with uniform crossover (UGAs). Hyperclimbing is an\nintuitive, general-purpose, non-local search heuristic applicable to discrete\nproduct spaces with rugged or stochastic cost functions. The strength of this\nheuristic lie in its insusceptibility to local optima when the cost function is\ndeterministic, and its tolerance for noise when the cost function is\nstochastic. Hyperclimbing works by decimating a search space, i.e. by\niteratively fixing the values of small numbers of variables. The hyperclimbing\nhypothesis holds that UGAs work by implementing efficient hyperclimbing. Proof\nof concept for this hypothesis comes from the use of a novel analytic technique\ninvolving the exploitation of algorithmic symmetry. We have also obtained\nexperimental results that show that a simple tweak inspired by the\nhyperclimbing hypothesis dramatically improves the performance of a UGA on\nlarge, random instances of MAX-3SAT and the Sherrington Kirkpatrick Spin\nGlasses problem.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1205.2382",
+        "title": "Mesh Learning for Classifying Cognitive Processes",
+        "abstract": "  A relatively recent advance in cognitive neuroscience has been multi-voxel\npattern analysis (MVPA), which enables researchers to decode brain states\nand/or the type of information represented in the brain during a cognitive\noperation. MVPA methods utilize machine learning algorithms to distinguish\namong types of information or cognitive states represented in the brain, based\non distributed patterns of neural activity. In the current investigation, we\npropose a new approach for representation of neural data for pattern analysis,\nnamely a Mesh Learning Model. In this approach, at each time instant, a star\nmesh is formed around each voxel, such that the voxel corresponding to the\ncenter node is surrounded by its p-nearest neighbors. The arc weights of each\nmesh are estimated from the voxel intensity values by least squares method. The\nestimated arc weights of all the meshes, called Mesh Arc Descriptors (MADs),\nare then used to train a classifier, such as Neural Networks, k-Nearest\nNeighbor, Na\\\"ive Bayes and Support Vector Machines. The proposed Mesh Model\nwas tested on neuroimaging data acquired via functional magnetic resonance\nimaging (fMRI) during a recognition memory experiment using categorized word\nlists, employing a previously established experimental paradigm (\\\"Oztekin &\nBadre, 2011). Results suggest that the proposed Mesh Learning approach can\nprovide an effective algorithm for pattern analysis of brain activity during\ncognitive processing.\n",
+        "categories": "cs.NE cs.AI cs.CV stat.ML"
+    },
+    {
+        "id": "1205.3336",
+        "title": "Distribution of the search of evolutionary product unit neural networks\n  for classification",
+        "abstract": "  This paper deals with the distributed processing in the search for an optimum\nclassification model using evolutionary product unit neural networks. For this\ndistributed search we used a cluster of computers. Our objective is to obtain a\nmore efficient design than those net architectures which do not use a\ndistributed process and which thus result in simpler designs. In order to get\nthe best classification models we use evolutionary algorithms to train and\ndesign neural networks, which require a very time consuming computation. The\nreasons behind the need for this distribution are various. It is complicated to\ntrain this type of nets because of the difficulty entailed in determining their\narchitecture due to the complex error surface. On the other hand, the use of\nevolutionary algorithms involves running a great number of tests with different\nseeds and parameters, thus resulting in a high computational cost\n",
+        "categories": "cs.NE cs.AI cs.CV"
+    },
+    {
+        "id": "1206.1074",
+        "title": "Memetic Artificial Bee Colony Algorithm for Large-Scale Global\n  Optimization",
+        "abstract": "  Memetic computation (MC) has emerged recently as a new paradigm of efficient\nalgorithms for solving the hardest optimization problems. On the other hand,\nartificial bees colony (ABC) algorithms demonstrate good performances when\nsolving continuous and combinatorial optimization problems. This study tries to\nuse these technologies under the same roof. As a result, a memetic ABC (MABC)\nalgorithm has been developed that is hybridized with two local search\nheuristics: the Nelder-Mead algorithm (NMA) and the random walk with direction\nexploitation (RWDE). The former is attended more towards exploration, while the\nlatter more towards exploitation of the search space. The stochastic adaptation\nrule was employed in order to control the balancing between exploration and\nexploitation. This MABC algorithm was applied to a Special suite on Large Scale\nContinuous Global Optimization at the 2012 IEEE Congress on Evolutionary\nComputation. The obtained results the MABC are comparable with the results of\nDECC-G, DECC-G*, and MLCC.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.3760",
+        "title": "Towards a Self-Organized Agent-Based Simulation Model for Exploration of\n  Human Synaptic Connections",
+        "abstract": "  In this paper, the early design of our self-organized agent-based simulation\nmodel for exploration of synaptic connections that faithfully generates what is\nobserved in natural situation is given. While we take inspiration from\nneuroscience, our intent is not to create a veridical model of processes in\nneurodevelopmental biology, nor to represent a real biological system. Instead,\nour goal is to design a simulation model that learns acting in the same way of\nhuman nervous system by using findings on human subjects using reflex\nmethodologies in order to estimate unknown connections.\n",
+        "categories": "cs.NE cs.AI cs.LG nlin.AO"
+    },
+    {
+        "id": "1207.4445",
+        "title": "Communities of Minima in Local Optima Networks of Combinatorial Spaces",
+        "abstract": "  In this work we present a new methodology to study the structure of the\nconfiguration spaces of hard combinatorial problems. It consists in building\nthe network that has as nodes the locally optimal configurations and as edges\nthe weighted oriented transitions between their basins of attraction. We apply\nthe approach to the detection of communities in the optima networks produced by\ntwo different classes of instances of a hard combinatorial optimization\nproblem: the quadratic assignment problem (QAP). We provide evidence indicating\nthat the two problem instance classes give rise to very different configuration\nspaces. For the so-called real-like class, the networks possess a clear modular\nstructure, while the optima networks belonging to the class of random uniform\ninstances are less well partitionable into clusters. This is convincingly\nsupported by using several statistical tests. Finally, we shortly discuss the\nconsequences of the findings for heuristically searching the corresponding\nproblem spaces.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4448",
+        "title": "DAMS: Distributed Adaptive Metaheuristic Selection",
+        "abstract": "  We present a distributed generic algorithm called DAMS dedicated to adaptive\noptimization in distributed environments. Given a set of metaheuristic, the\ngoal of DAMS is to coordinate their local execution on distributed nodes in\norder to optimize the global performance of the distributed system. DAMS is\nbased on three-layer architecture allowing node to decide distributively what\nlocal information to communicate, and what metaheuristic to apply while the\noptimization process is in progress. The adaptive features of DAMS are first\naddressed in a very general setting. A specific DAMS called SBM is then\ndescribed and analyzed from both a parallel and an adaptive point of view. SBM\nis a simple, yet efficient, adaptive distributed algorithm using an\nexploitation component allowing nodes to select the metaheuristic with the best\nlocally observed performance, and an exploration component allowing nodes to\ndetect the metaheuristic with the actual best performance. The efficiency of\nBSM-DAMS is demonstrated through experimentations and comparisons with other\nadaptive strategies (sequential and distributed).\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4450",
+        "title": "NILS: a Neutrality-based Iterated Local Search and its application to\n  Flowshop Scheduling",
+        "abstract": "  This paper presents a new methodology that exploits specific characteristics\nfrom the fitness landscape. In particular, we are interested in the property of\nneutrality, that deals with the fact that the same fitness value is assigned to\nnumerous solutions from the search space. Many combinatorial optimization\nproblems share this property, that is generally very inhibiting for local\nsearch algorithms. A neutrality-based iterated local search, that allows\nneutral walks to move on the plateaus, is proposed and experimented on a\npermutation flowshop scheduling problem with the aim of minimizing the\nmakespan. Our experiments show that the proposed approach is able to find\nimproving solutions compared with a classical iterated local search. Moreover,\nthe tradeoff between the exploitation of neutrality and the exploration of new\nparts of the search space is deeply analyzed.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4451",
+        "title": "Set-based Multiobjective Fitness Landscapes: A Preliminary Study",
+        "abstract": "  Fitness landscape analysis aims to understand the geometry of a given\noptimization problem in order to design more efficient search algorithms.\nHowever, there is a very little knowledge on the landscape of multiobjective\nproblems. In this work, following a recent proposal by Zitzler et al. (2010),\nwe consider multiobjective optimization as a set problem. Then, we give a\ngeneral definition of set-based multiobjective fitness landscapes. An\nexperimental set-based fitness landscape analysis is conducted on the\nmultiobjective NK-landscapes with objective correlation. The aim is to adapt\nand to enhance the comprehensive design of set-based multiobjective search\napproaches, motivated by an a priori analysis of the corresponding set problem\nproperties.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4452",
+        "title": "Pareto Local Optima of Multiobjective NK-Landscapes with Correlated\n  Objectives",
+        "abstract": "  In this paper, we conduct a fitness landscape analysis for multiobjective\ncombinatorial optimization, based on the local optima of multiobjective\nNK-landscapes with objective correlation. In single-objective optimization, it\nhas become clear that local optima have a strong impact on the performance of\nmetaheuristics. Here, we propose an extension to the multiobjective case, based\non the Pareto dominance. We study the co-influence of the problem dimension,\nthe degree of non-linearity, the number of objectives and the correlation\ndegree between objective functions on the number of Pareto local optima.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4455",
+        "title": "First-improvement vs. Best-improvement Local Optima Networks of NK\n  Landscapes",
+        "abstract": "  This paper extends a recently proposed model for combinatorial landscapes:\nLocal Optima Networks (LON), to incorporate a first-improvement (greedy-ascent)\nhill-climbing algorithm, instead of a best-improvement (steepest-ascent) one,\nfor the definition and extraction of the basins of attraction of the landscape\noptima. A statistical analysis comparing best and first improvement network\nmodels for a set of NK landscapes, is presented and discussed. Our results\nsuggest structural differences between the two models with respect to both the\nnetwork connectivity, and the nature of the basins of attraction. The impact of\nthese differences in the behavior of search heuristics based on first and best\nimprovement local search is thoroughly discussed.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4628",
+        "title": "On the Effect of Connectedness for Biobjective Multiple and Long Path\n  Problems",
+        "abstract": "  Recently, the property of connectedness has been claimed to give a strong\nmotivation on the design of local search techniques for multiobjective\ncombinatorial optimization (MOCO). Indeed, when connectedness holds, a basic\nPareto local search, initialized with at least one non-dominated solution,\nallows to identify the efficient set exhaustively. However, this becomes\nquickly infeasible in practice as the number of efficient solutions typically\ngrows exponentially with the instance size. As a consequence, we generally have\nto deal with a limited-size approximation, where a good sample set has to be\nfound. In this paper, we propose the biobjective multiple and long path\nproblems to show experimentally that, on the first problems, even if the\nefficient set is connected, a local search may be outperformed by a simple\nevolutionary algorithm in the sampling of the efficient set. At the opposite,\non the second problems, a local search algorithm may successfully approximate a\ndisconnected efficient set. Then, we argue that connectedness is not the single\nproperty to study for the design of local search heuristics for MOCO. This work\nopens new discussions on a proper definition of the multiobjective fitness\nlandscape.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4629",
+        "title": "On the Neutrality of Flowshop Scheduling Fitness Landscapes",
+        "abstract": "  Solving efficiently complex problems using metaheuristics, and in particular\nlocal searches, requires incorporating knowledge about the problem to solve. In\nthis paper, the permutation flowshop problem is studied. It is well known that\nin such problems, several solutions may have the same fitness value. As this\nneutrality property is an important one, it should be taken into account during\nthe design of optimization methods. Then in the context of the permutation\nflowshop, a deep landscape analysis focused on the neutrality property is\ndriven and propositions on the way to use this neutrality to guide efficiently\nthe search are given.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4631",
+        "title": "Analyzing the Effect of Objective Correlation on the Efficient Set of\n  MNK-Landscapes",
+        "abstract": "  In multiobjective combinatorial optimization, there exists two main classes\nof metaheuristics, based either on multiple aggregations, or on a dominance\nrelation. As in the single objective case, the structure of the search space\ncan explain the difficulty for multiobjective metaheuristics, and guide the\ndesign of such methods. In this work we analyze the properties of\nmultiobjective combinatorial search spaces. In particular, we focus on the\nfeatures related the efficient set, and we pay a particular attention to the\ncorrelation between objectives. Few benchmark takes such objective correlation\ninto account. Here, we define a general method to design multiobjective\nproblems with correlation. As an example, we extend the well-known\nmultiobjective NK-landscapes. By measuring different properties of the search\nspace, we show the importance of considering the objective correlation on the\ndesign of metaheuristics.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1207.4632",
+        "title": "Clustering of Local Optima in Combinatorial Fitness Landscapes",
+        "abstract": "  Using the recently proposed model of combinatorial landscapes: local optima\nnetworks, we study the distribution of local optima in two classes of instances\nof the quadratic assignment problem. Our results indicate that the two problem\ninstance classes give rise to very different configuration spaces. For the\nso-called real-like class, the optima networks possess a clear modular\nstructure, while the networks belonging to the class of random uniform\ninstances are less well partitionable into clusters. We briefly discuss the\nconsequences of the findings for heuristically searching the corresponding\nproblem spaces.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1209.2548",
+        "title": "Training a Feed-forward Neural Network with Artificial Bee Colony Based\n  Backpropagation Method",
+        "abstract": "  Back-propagation algorithm is one of the most widely used and popular\ntechniques to optimize the feed forward neural network training. Nature\ninspired meta-heuristic algorithms also provide derivative-free solution to\noptimize complex problem. Artificial bee colony algorithm is a nature inspired\nmeta-heuristic algorithm, mimicking the foraging or food source searching\nbehaviour of bees in a bee colony and this algorithm is implemented in several\napplications for an improved optimized outcome. The proposed method in this\npaper includes an improved artificial bee colony algorithm based\nback-propagation neural network training method for fast and improved\nconvergence rate of the hybrid neural network learning method. The result is\nanalysed with the genetic algorithm based back-propagation method, and it is\nanother hybridized procedure of its kind. Analysis is performed over standard\ndata sets, reflecting the light of efficiency of proposed method in terms of\nconvergence speed and rate.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1209.2948",
+        "title": "Cultural Algorithm Toolkit for Multi-objective Rule Mining",
+        "abstract": "  Cultural algorithm is a kind of evolutionary algorithm inspired from societal\nevolution and is composed of a belief space, a population space and a protocol\nthat enables exchange of knowledge between these sources. Knowledge created in\nthe population space is accepted into the belief space while this collective\nknowledge from these sources is combined to influence the decisions of the\nindividual agents in solving problems. Classification rules comes under\ndescriptive knowledge discovery in data mining and are the most sought out by\nusers since they represent highly comprehensible form of knowledge. The rules\nhave certain properties which make them useful forms of actionable knowledge to\nusers. The rules are evaluated using these properties namely the rule metrics.\nIn the current study a Cultural Algorithm Toolkit for Classification Rule\nMining (CAT-CRM) is proposed which allows the user to control three different\nset of parameters namely the evolutionary parameters, the rule parameters as\nwell as agent parameters and hence can be used for experimenting with an\nevolutionary system, a rule mining system or an agent based social system.\nResults of experiments conducted to observe the effect of different number and\ntype of metrics on the performance of the algorithm on bench mark data sets is\nreported.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1210.6539",
+        "title": "Towards Swarm Calculus: Urn Models of Collective Decisions and Universal\n  Properties of Swarm Performance",
+        "abstract": "  Methods of general applicability are searched for in swarm intelligence with\nthe aim of gaining new insights about natural swarms and to develop design\nmethodologies for artificial swarms. An ideal solution could be a `swarm\ncalculus' that allows to calculate key features of swarms such as expected\nswarm performance and robustness based on only a few parameters. To work\ntowards this ideal, one needs to find methods and models with high degrees of\ngenerality. In this paper, we report two models that might be examples of\nexceptional generality. First, an abstract model is presented that describes\nswarm performance depending on swarm density based on the dichotomy between\ncooperation and interference. Typical swarm experiments are given as examples\nto show how the model fits to several different results. Second, we give an\nabstract model of collective decision making that is inspired by urn models.\nThe effects of positive feedback probability, that is increasing over time in a\ndecision making system, are understood by the help of a parameter that controls\nthe feedback based on the swarm's current consensus. Several applicable\nmethods, such as the description as Markov process, calculation of splitting\nprobabilities, mean first passage times, and measurements of positive feedback,\nare discussed and applications to artificial and natural swarms are reported.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1210.8124",
+        "title": "Hierarchical Learning Algorithm for the Beta Basis Function Neural\n  Network",
+        "abstract": "  The paper presents a two-level learning method for the design of the Beta\nBasis Function Neural Network BBFNN. A Genetic Algorithm is employed at the\nupper level to construct BBFNN, while the key learning parameters :the width,\nthe centers and the Beta form are optimised using the gradient algorithm at the\nlower level. In order to demonstrate the effectiveness of this hierarchical\nlearning algorithm HLABBFNN, we need to validate our algorithm for the\napproximation of non-linear function.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1211.0424",
+        "title": "Learning classifier systems with memory condition to solve non-Markov\n  problems",
+        "abstract": "  In the family of Learning Classifier Systems, the classifier system XCS has\nbeen successfully used for many applications. However, the standard XCS has no\nmemory mechanism and can only learn optimal policy in Markov environments,\nwhere the optimal action is determined solely by the state of current sensory\ninput. In practice, most environments are partially observable environments on\nagent's sensation, which are also known as non-Markov environments. Within\nthese environments, XCS either fails, or only develops a suboptimal policy,\nsince it has no memory. In this work, we develop a new classifier system based\non XCS to tackle this problem. It adds an internal message list to XCS as the\nmemory list to record input sensation history, and extends a small number of\nclassifiers with memory conditions. The classifier's memory condition, as a\nfoothold to disambiguate non-Markov states, is used to sense a specified\nelement in the memory list. Besides, a detection method is employed to\nrecognize non-Markov states in environments, to avoid these states controlling\nover classifiers' memory conditions. Furthermore, four sets of different\ncomplex maze environments have been tested by the proposed method. Experimental\nresults show that our system is one of the best techniques to solve partially\nobservable environments, compared with some well-known classifier systems\nproposed for these environments.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1211.6205",
+        "title": "Neuro-Fuzzy Computing System with the Capacity of Implementation on\n  Memristor-Crossbar and Optimization-Free Hardware Training",
+        "abstract": "  In this paper, first we present a new explanation for the relation between\nlogical circuits and artificial neural networks, logical circuits and fuzzy\nlogic, and artificial neural networks and fuzzy inference systems. Then, based\non these results, we propose a new neuro-fuzzy computing system which can\neffectively be implemented on the memristor-crossbar structure. One important\nfeature of the proposed system is that its hardware can directly be trained\nusing the Hebbian learning rule and without the need to any optimization. The\nsystem also has a very good capability to deal with huge number of input-out\ntraining data without facing problems like overtraining.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1211.6410",
+        "title": "New Hoopoe Heuristic Optimization",
+        "abstract": "  Most optimization problems in real life applications are often highly\nnonlinear. Local optimization algorithms do not give the desired performance.\nSo, only global optimization algorithms should be used to obtain optimal\nsolutions. This paper introduces a new nature-inspired metaheuristic\noptimization algorithm, called Hoopoe Heuristic (HH). In this paper, we will\nstudy HH and validate it against some test functions. Investigations show that\nit is very promising and could be seen as an optimization of the powerful\nalgorithm of cuckoo search. Finally, we discuss the features of Hoopoe\nHeuristic and propose topics for further studies.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1212.2958",
+        "title": "Spike and Tyke, the Quantized Neuron Model",
+        "abstract": "  Modeling spike firing assumes that spiking statistics are Poisson, but real\ndata violates this assumption. To capture non-Poissonian features, in order to\nfix the inevitable inherent irregularity, researchers rescale the time axis\nwith tedious computational overhead instead of searching for another\ndistribution. Spikes or action potentials are precisely-timed changes in the\nionic transport through synapses adjusting the synaptic weight, successfully\nmodeled and developed as a memristor. Memristance value is multiples of initial\nresistance. This reminds us with the foundations of quantum mechanics. We try\nto quantize potential and resistance, as done with energy. After reviewing\nPlanck curve for blackbody radiation, we propose the quantization equations. We\nintroduce and prove a theorem that quantizes the resistance. Then we define the\ntyke showing its basic characteristics. Finally we give the basic\ntransformations to model spiking and link an energy quantum to a tyke.\nInvestigation shows how this perfectly models the neuron spiking, with over 97%\nmatch.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1212.5271",
+        "title": "Towards the Evolution of Novel Vertical-Axis Wind Turbines",
+        "abstract": "  Renewable and sustainable energy is one of the most important challenges\ncurrently facing mankind. Wind has made an increasing contribution to the\nworld's energy supply mix, but still remains a long way from reaching its full\npotential. In this paper, we investigate the use of artificial evolution to\ndesign vertical-axis wind turbine prototypes that are physically instantiated\nand evaluated under approximated wind tunnel conditions. An artificial neural\nnetwork is used as a surrogate model to assist learning and found to reduce the\nnumber of fabrications required to reach a higher aerodynamic efficiency,\nresulting in an important cost reduction. Unlike in other approaches, such as\ncomputational fluid dynamics simulations, no mathematical formulations are used\nand no model assumptions are made.\n",
+        "categories": "cs.NE cs.AI cs.CE"
+    },
+    {
+        "id": "1212.6276",
+        "title": "Echo State Queueing Network: a new reservoir computing learning tool",
+        "abstract": "  In the last decade, a new computational paradigm was introduced in the field\nof Machine Learning, under the name of Reservoir Computing (RC). RC models are\nneural networks which a recurrent part (the reservoir) that does not\nparticipate in the learning process, and the rest of the system where no\nrecurrence (no neural circuit) occurs. This approach has grown rapidly due to\nits success in solving learning tasks and other computational applications.\nSome success was also observed with another recently proposed neural network\ndesigned using Queueing Theory, the Random Neural Network (RandNN). Both\napproaches have good properties and identified drawbacks. In this paper, we\npropose a new RC model called Echo State Queueing Network (ESQN), where we use\nideas coming from RandNNs for the design of the reservoir. ESQNs consist in\nESNs where the reservoir has a new dynamics inspired by recurrent RandNNs. The\npaper positions ESQNs in the global Machine Learning area, and provides\nexamples of their use and performances. We show on largely used benchmarks that\nESQNs are very accurate tools, and we illustrate how they compare with standard\nESNs.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1303.2096",
+        "title": "Gene-Machine, a new search heuristic algorithm",
+        "abstract": "  This paper introduces Gene-Machine, an efficient and new search heuristic\nalgorithm, based in the building-block hypothesis. It is inspired by natural\nevolution, but does not use some of the concepts present in genetic algorithms\nlike population, mutation and generation. This heuristic exhibits good\nperformance in comparison with genetic algorithms, and can be used to generate\nuseful solutions to optimization and search problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1303.6145",
+        "title": "Particles Prefer Walking Along the Axes: Experimental Insights into the\n  Behavior of a Particle Swarm",
+        "abstract": "  Particle swarm optimization (PSO) is a widely used nature-inspired\nmeta-heuristic for solving continuous optimization problems. However, when\nrunning the PSO algorithm, one encounters the phenomenon of so-called\nstagnation, that means in our context, the whole swarm starts to converge to a\nsolution that is not (even a local) optimum. The goal of this work is to point\nout possible reasons why the swarm stagnates at these non-optimal points. To\nachieve our results, we use the newly defined potential of a swarm. The total\npotential has a portion for every dimension of the search space, and it drops\nwhen the swarm approaches the point of convergence. As it turns out\nexperimentally, the swarm is very likely to come sometimes into \"unbalanced\"\nstates, i. e., almost all potential belongs to one axis. Therefore, the swarm\nbecomes blind for improvements still possible in any other direction. Finally,\nwe show how in the light of the potential and these observations, a slightly\nadapted PSO rebalances the potential and therefore increases the quality of the\nsolution.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1304.0640",
+        "title": "Event management for large scale event-driven digital hardware spiking\n  neural networks",
+        "abstract": "  The interest in brain-like computation has led to the design of a plethora of\ninnovative neuromorphic systems. Individually, spiking neural networks (SNNs),\nevent-driven simulation and digital hardware neuromorphic systems get a lot of\nattention. Despite the popularity of event-driven SNNs in software, very few\ndigital hardware architectures are found. This is because existing hardware\nsolutions for event management scale badly with the number of events. This\npaper introduces the structured heap queue, a pipelined digital hardware data\nstructure, and demonstrates its suitability for event management. The\nstructured heap queue scales gracefully with the number of events, allowing the\nefficient implementation of large scale digital hardware event-driven SNNs. The\nscaling is linear for memory, logarithmic for logic resources and constant for\nprocessing time. The use of the structured heap queue is demonstrated on\nfield-programmable gate array (FPGA) with an image segmentation experiment and\na SNN of 65~536 neurons and 513~184 synapses. Events can be processed at the\nrate of 1 every 7 clock cycles and a 406$\\times$158 pixel image is segmented in\n200 ms.\n",
+        "categories": "cs.NE cs.AI cs.DC"
+    },
+    {
+        "id": "1304.7423",
+        "title": "On Integrating Fuzzy Knowledge Using a Novel Evolutionary Algorithm",
+        "abstract": "  Fuzzy systems may be considered as knowledge-based systems that incorporates\nhuman knowledge into their knowledge base through fuzzy rules and fuzzy\nmembership functions. The intent of this study is to present a fuzzy knowledge\nintegration framework using a Novel Evolutionary Strategy (NES), which can\nsimultaneously integrate multiple fuzzy rule sets and their membership function\nsets. The proposed approach consists of two phases: fuzzy knowledge encoding\nand fuzzy knowledge integration. Four application domains, the hepatitis\ndiagnosis, the sugarcane breeding prediction, Iris plants classification, and\nTic-tac-toe endgame were used to show the performance ofthe proposed knowledge\napproach. Results show that the fuzzy knowledge base derived using our approach\nperforms better than Genetic Algorithm based approach.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1305.6537",
+        "title": "A Cooperative Coevolutionary Genetic Algorithm for Learning Bayesian\n  Network Structures",
+        "abstract": "  We propose a cooperative coevolutionary genetic algorithm for learning\nBayesian network structures from fully observable data sets. Since this problem\ncan be decomposed into two dependent subproblems, that is to find an ordering\nof the nodes and an optimal connectivity matrix, our algorithm uses two\nsubpopulations, each one representing a subtask. We describe the empirical\nresults obtained with simulations of the Alarm and Insurance networks. We show\nthat our algorithm outperforms the deterministic algorithm K2.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1306.5667",
+        "title": "Using Genetic Programming to Model Software",
+        "abstract": "  We study a generic program to investigate the scope for automatically\ncustomising it for a vital current task, which was not considered when it was\nfirst written. In detail, we show genetic programming (GP) can evolve models of\naspects of BLAST's output when it is used to map Solexa Next-Gen DNA sequences\nto the human genome.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1307.3824",
+        "title": "The Fundamental Learning Problem that Genetic Algorithms with Uniform\n  Crossover Solve Efficiently and Repeatedly As Evolution Proceeds",
+        "abstract": "  This paper establishes theoretical bonafides for implicit concurrent\nmultivariate effect evaluation--implicit concurrency for short---a broad and\nversatile computational learning efficiency thought to underlie\ngeneral-purpose, non-local, noise-tolerant optimization in genetic algorithms\nwith uniform crossover (UGAs). We demonstrate that implicit concurrency is\nindeed a form of efficient learning by showing that it can be used to obtain\nclose-to-optimal bounds on the time and queries required to approximately\ncorrectly solve a constrained version (k=7, \\eta=1/5) of a recognizable\ncomputational learning problem: learning parities with noisy membership\nqueries. We argue that a UGA that treats the noisy membership query oracle as a\nfitness function can be straightforwardly used to approximately correctly learn\nthe essential attributes in O(log^1.585 n) queries and O(n log^1.585 n) time,\nwhere n is the total number of attributes. Our proof relies on an accessible\nsymmetry argument and the use of statistical hypothesis testing to reject a\nglobal null hypothesis at the 10^-100 level of significance. It is, to the best\nof our knowledge, the first relatively rigorous identification of efficient\ncomputational learning in an evolutionary algorithm on a non-trivial learning\nproblem.\n",
+        "categories": "cs.NE cs.AI cs.CC cs.DM cs.LG"
+    },
+    {
+        "id": "1308.1484",
+        "title": "A Multi-Swarm Cellular PSO based on Clonal Selection Algorithm in\n  Dynamic Environments",
+        "abstract": "  Many real-world problems are dynamic optimization problems. In this case, the\noptima in the environment change dynamically. Therefore, traditional\noptimization algorithms disable to track and find optima. In this paper, a new\nmulti-swarm cellular particle swarm optimization based on clonal selection\nalgorithm (CPSOC) is proposed for dynamic environments. In the proposed\nalgorithm, the search space is partitioned into cells by a cellular automaton.\nClustered particles in each cell, which make a sub-swarm, are evolved by the\nparticle swarm optimization and clonal selection algorithm. Experimental\nresults on Moving Peaks Benchmark demonstrate the superiority of the CPSOC its\npopular methods.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1308.1603",
+        "title": "A Note on Topology Preservation in Classification, and the Construction\n  of a Universal Neuron Grid",
+        "abstract": "  It will be shown that according to theorems of K. Menger, every neuron grid\nif identified with a curve is able to preserve the adopted qualitative\nstructure of a data space. Furthermore, if this identification is made, the\nneuron grid structure can always be mapped to a subset of a universal neuron\ngrid which is constructable in three space dimensions. Conclusions will be\ndrawn for established neuron grid types as well as neural fields.\n",
+        "categories": "cs.NE cs.AI nlin.AO stat.ML"
+    },
+    {
+        "id": "1308.2350",
+        "title": "Learning Features and their Transformations by Spatial and Temporal\n  Spherical Clustering",
+        "abstract": "  Learning features invariant to arbitrary transformations in the data is a\nrequirement for any recognition system, biological or artificial. It is now\nwidely accepted that simple cells in the primary visual cortex respond to\nfeatures while the complex cells respond to features invariant to different\ntransformations. We present a novel two-layered feedforward neural model that\nlearns features in the first layer by spatial spherical clustering and\ninvariance to transformations in the second layer by temporal spherical\nclustering. Learning occurs in an online and unsupervised manner following the\nHebbian rule. When exposed to natural videos acquired by a camera mounted on a\ncat's head, the first and second layer neurons in our model develop simple and\ncomplex cell-like receptive field properties. The model can predict by learning\nlateral connections among the first layer neurons. A topographic map to their\nspatial features emerges by exponentially decaying the flow of activation with\ndistance from one neuron to another in the first layer that fire in close\ntemporal proximity, thereby minimizing the pooling length in an online manner\nsimultaneously with feature learning.\n",
+        "categories": "cs.NE cs.AI cs.CV cs.LG q-bio.NC"
+    },
+    {
+        "id": "1308.3136",
+        "title": "Toward the Coevolution of Novel Vertical-Axis Wind Turbines",
+        "abstract": "  The production of renewable and sustainable energy is one of the most\nimportant challenges currently facing mankind. Wind has made an increasing\ncontribution to the world's energy supply mix, but still remains a long way\nfrom reaching its full potential. In this paper, we investigate the use of\nartificial evolution to design vertical-axis wind turbine prototypes that are\nphysically instantiated and evaluated under fan generated wind conditions.\nInitially a conventional evolutionary algorithm is used to explore the design\nspace of a single wind turbine and later a cooperative coevolutionary algorithm\nis used to explore the design space of an array of wind turbines. Artificial\nneural networks are used throughout as surrogate models to assist learning and\nfound to reduce the number of fabrications required to reach a higher\naerodynamic efficiency. Unlike in other approaches, such as computational fluid\ndynamics simulations, no mathematical formulations are used and no model\nassumptions are made.\n",
+        "categories": "cs.NE cs.AI cs.CE"
+    },
+    {
+        "id": "1308.5032",
+        "title": "How Did Humans Become So Creative? A Computational Approach",
+        "abstract": "  This paper summarizes efforts to computationally model two transitions in the\nevolution of human creativity: its origins about two million years ago, and the\n'big bang' of creativity about 50,000 years ago. Using a computational model of\ncultural evolution in which neural network based agents evolve ideas for\nactions through invention and imitation, we tested the hypothesis that human\ncreativity began with onset of the capacity for recursive recall. We compared\nruns in which agents were limited to single-step actions to runs in which they\nused recursive recall to chain simple actions into complex ones. Chaining\nresulted in higher diversity, open-ended novelty, no ceiling on the mean\nfitness of actions, and greater ability to make use of learning. Using a\ncomputational model of portrait painting, we tested the hypothesis that the\nexplosion of creativity in the Middle/Upper Paleolithic was due to onset of\ncon-textual focus: the capacity to shift between associative and analytic\nthought. This resulted in faster convergence on portraits that resembled the\nsitter, employed painterly techniques, and were rated as preferable. We\nconclude that recursive recall and contextual focus provide a computationally\nplausible explanation of how humans evolved the means to transform this planet.\n",
+        "categories": "cs.NE cs.AI cs.MA q-bio.NC"
+    },
+    {
+        "id": "1309.1524",
+        "title": "Guided Self-Organization of Input-Driven Recurrent Neural Networks",
+        "abstract": "  We review attempts that have been made towards understanding the\ncomputational properties and mechanisms of input-driven dynamical systems like\nRNNs, and reservoir computing networks in particular. We provide details on\nmethods that have been developed to give quantitative answers to the questions\nabove. Following this, we show how self-organization may be used to improve\nreservoirs for better performance, in some cases guided by the measures\npresented before. We also present a possible way to quantify task performance\nusing an information-theoretic approach, and finally discuss promising future\ndirections aimed at a better understanding of how these systems perform their\ncomputations and how to best guide self-organized processes for their\noptimization.\n",
+        "categories": "cs.NE cs.AI nlin.AO"
+    },
+    {
+        "id": "1310.7961",
+        "title": "Evaluation the efficiency of artificial bee colony and the firefly\n  algorithm in solving the continuous optimization problem",
+        "abstract": "  Now the Meta-Heuristic algorithms have been used vastly in solving the\nproblem of continuous optimization. In this paper the Artificial Bee Colony\n(ABC) algorithm and the Firefly Algorithm (FA) are valuated. And for presenting\nthe efficiency of the algorithms and also for more analysis of them, the\ncontinuous optimization problems which are of the type of the problems of vast\nlimit of answer and the close optimized points are tested. So, in this paper\nthe efficiency of the ABC algorithm and FA are presented for solving the\ncontinuous optimization problems and also the said algorithms are studied from\nthe accuracy in reaching the optimized solution and the resulting time and the\nreliability of the optimized answer points of view.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1312.1423",
+        "title": "ABC-SG: A New Artificial Bee Colony Algorithm-Based Distance of\n  Sequential Data Using Sigma Grams",
+        "abstract": "  The problem of similarity search is one of the main problems in computer\nscience. This problem has many applications in text-retrieval, web search,\ncomputational biology, bioinformatics and others. Similarity between two data\nobjects can be depicted using a similarity measure or a distance metric. There\nare numerous distance metrics in the literature, some are used for a particular\ndata type, and others are more general. In this paper we present a new distance\nmetric for sequential data which is based on the sum of n-grams. The novelty of\nour distance is that these n-grams are weighted using artificial bee colony; a\nrecent optimization algorithm based on the collective intelligence of a swarm\nof bees on their search for nectar. This algorithm has been used in optimizing\na large number of numerical problems. We validate the new distance\nexperimentally.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1312.1752",
+        "title": "Particle Swarm Optimization of Information-Content Weighting of Symbolic\n  Aggregate Approximation",
+        "abstract": "  Bio-inspired optimization algorithms have been gaining more popularity\nrecently. One of the most important of these algorithms is particle swarm\noptimization (PSO). PSO is based on the collective intelligence of a swam of\nparticles. Each particle explores a part of the search space looking for the\noptimal position and adjusts its position according to two factors; the first\nis its own experience and the second is the collective experience of the whole\nswarm. PSO has been successfully used to solve many optimization problems. In\nthis work we use PSO to improve the performance of a well-known representation\nmethod of time series data which is the symbolic aggregate approximation (SAX).\nAs with other time series representation methods, SAX results in loss of\ninformation when applied to represent time series. In this paper we use PSO to\npropose a new minimum distance WMD for SAX to remedy this problem. Unlike the\noriginal minimum distance, the new distance sets different weights to different\nsegments of the time series according to their information content. This\nweighted minimum distance enhances the performance of SAX as we show through\nexperiments using different time series datasets.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1312.1760",
+        "title": "Towards Normalizing the Edit Distance Using a Genetic Algorithms Based\n  Scheme",
+        "abstract": "  The normalized edit distance is one of the distances derived from the edit\ndistance. It is useful in some applications because it takes into account the\nlengths of the two strings compared. The normalized edit distance is not\ndefined in terms of edit operations but rather in terms of the edit path. In\nthis paper we propose a new derivative of the edit distance that also takes\ninto consideration the lengths of the two strings, but the new distance is\nrelated directly to the edit distance. The particularity of the new distance is\nthat it uses the genetic algorithms to set the values of the parameters it\nuses. We conduct experiments to test the new distance and we obtain promising\nresults.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1401.3464",
+        "title": "Learning Bayesian Network Equivalence Classes with Ant Colony\n  Optimization",
+        "abstract": "  Bayesian networks are a useful tool in the representation of uncertain\nknowledge. This paper proposes a new algorithm called ACO-E, to learn the\nstructure of a Bayesian network. It does this by conducting a search through\nthe space of equivalence classes of Bayesian networks using Ant Colony\nOptimization (ACO). To this end, two novel extensions of traditional ACO\ntechniques are proposed and implemented. Firstly, multiple types of moves are\nallowed. Secondly, moves can be given in terms of indices that are not based on\nconstruction graph nodes. The results of testing show that ACO-E performs\nbetter than a greedy search and other state-of-the-art and metaheuristic\nalgorithms whilst searching in the space of equivalence classes.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1401.5054",
+        "title": "An\\'alisis e implementaci\\'on de algoritmos evolutivos para la\n  optimizaci\\'on de simulaciones en ingenier\\'ia civil. (draft)",
+        "abstract": "  This paper studies the applicability of evolutionary algorithms,\nparticularly, the evolution strategies family in order to estimate a\ndegradation parameter in the shear design of reinforced concrete members. This\nproblem represents a great computational task and is highly relevant in the\nframework of the structural engineering that for the first time is solved using\ngenetic algorithms.\n  You are viewing a draft, the authors appreciate corrections, comments and\nsuggestions to this work.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1402.2959",
+        "title": "Local Optima Networks: A New Model of Combinatorial Fitness Landscapes",
+        "abstract": "  This chapter overviews a recently introduced network-based model of\ncombinatorial landscapes: Local Optima Networks (LON). The model compresses the\ninformation given by the whole search space into a smaller mathematical object\nthat is a graph having as vertices the local optima and as edges the possible\nweighted transitions between them. Two definitions of edges have been proposed:\nbasin-transition and escape-edges, which capture relevant topological features\nof the underlying search spaces. This network model brings a new set of metrics\nto characterize the structure of combinatorial landscapes, those associated\nwith the science of complex networks. These metrics are described, and results\nare presented of local optima network extraction and analysis for two selected\ncombinatorial landscapes: NK landscapes and the quadratic assignment problem.\nNetwork features are found to correlate with and even predict the performance\nof heuristic search algorithms operating on these problems.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1402.4699",
+        "title": "A Powerful Genetic Algorithm for Traveling Salesman Problem",
+        "abstract": "  This paper presents a powerful genetic algorithm(GA) to solve the traveling\nsalesman problem (TSP). To construct a powerful GA, I use edge swapping(ES)\nwith a local search procedure to determine good combinations of building blocks\nof parent solutions for generating even better offspring solutions.\nExperimental results on well studied TSP benchmarks demonstrate that the\nproposed GA is competitive in finding very high quality solutions on instances\nwith up to 16,862 cities.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1402.6556",
+        "title": "Evolutionary solving of the debts' clearing problem",
+        "abstract": "  The debts' clearing problem is about clearing all the debts in a group of n\nentities (persons, companies etc.) using a minimal number of money transaction\noperations. The problem is known to be NP-hard in the strong sense. As for many\nintractable problems, techniques from the field of artificial intelligence are\nuseful in finding solutions close to optimum for large inputs. An evolutionary\nalgorithm for solving the debts' clearing problem is proposed.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1405.1958",
+        "title": "A Self-Adaptive Network Protection System",
+        "abstract": "  In this treatise we aim to build a hybrid network automated (self-adaptive)\nsecurity threats discovery and prevention system; by using unconventional\ntechniques and methods, including fuzzy logic and biological inspired\nalgorithms under the context of soft computing.\n",
+        "categories": "cs.NE cs.AI cs.CR"
+    },
+    {
+        "id": "1405.7716",
+        "title": "Experimental Demonstration of Array-level Learning with Phase Change\n  Synaptic Devices",
+        "abstract": "  The computational performance of the biological brain has long attracted\nsignificant interest and has led to inspirations in operating principles,\nalgorithms, and architectures for computing and signal processing. In this\nwork, we focus on hardware implementation of brain-like learning in a\nbrain-inspired architecture. We demonstrate, in hardware, that 2-D crossbar\narrays of phase change synaptic devices can achieve associative learning and\nperform pattern recognition. Device and array-level studies using an\nexperimental 10x10 array of phase change synaptic devices have shown that\npattern recognition is robust against synaptic resistance variations and large\nvariations can be tolerated by increasing the number of training iterations.\nOur measurements show that increase in initial variation from 9 % to 60 %\ncauses required training iterations to increase from 1 to 11.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1406.0175",
+        "title": "Evolutionary Search in the Space of Rules for Creation of New Two-Player\n  Board Games",
+        "abstract": "  Games have always been a popular test bed for artificial intelligence\ntechniques. Game developers are always in constant search for techniques that\ncan automatically create computer games minimizing the developer's task. In\nthis work we present an evolutionary strategy based solution towards the\nautomatic generation of two player board games. To guide the evolutionary\nprocess towards games, which are entertaining, we propose a set of metrics.\nThese metrics are based upon different theories of entertainment in computer\ngames. This work also compares the entertainment value of the evolved games\nwith the existing popular board based games. Further to verify the\nentertainment value of the evolved games with the entertainment value of the\nhuman user a human user survey is conducted. In addition to the user survey we\ncheck the learnability of the evolved games using an artificial neural network\nbased controller. The proposed metrics and the evolutionary process can be\nemployed for generating new and entertaining board games, provided an initial\nsearch space is given to the evolutionary algorithm.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1406.1509",
+        "title": "Systematic N-tuple Networks for Position Evaluation: Exceeding 90% in\n  the Othello League",
+        "abstract": "  N-tuple networks have been successfully used as position evaluation functions\nfor board games such as Othello or Connect Four. The effectiveness of such\nnetworks depends on their architecture, which is determined by the placement of\nconstituent n-tuples, sequences of board locations, providing input to the\nnetwork. The most popular method of placing n-tuples consists in randomly\ngenerating a small number of long, snake-shaped board location sequences. In\ncomparison, we show that learning n-tuple networks is significantly more\neffective if they involve a large number of systematically placed, short,\nstraight n-tuples. Moreover, we demonstrate that in order to obtain the best\nperformance and the steepest learning curve for Othello it is enough to use\nn-tuples of size just 2, yielding a network consisting of only 288 weights. The\nbest such network evolved in this study has been evaluated in the online\nOthello League, obtaining the performance of nearly 96% --- more than any other\nplayer to date.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1406.2623",
+        "title": "Maximum Likelihood-based Online Adaptation of Hyper-parameters in CMA-ES",
+        "abstract": "  The Covariance Matrix Adaptation Evolution Strategy (CMA-ES) is widely\naccepted as a robust derivative-free continuous optimization algorithm for\nnon-linear and non-convex optimization problems. CMA-ES is well known to be\nalmost parameterless, meaning that only one hyper-parameter, the population\nsize, is proposed to be tuned by the user. In this paper, we propose a\nprincipled approach called self-CMA-ES to achieve the online adaptation of\nCMA-ES hyper-parameters in order to improve its overall performance.\nExperimental results show that for larger-than-default population size, the\ndefault settings of hyper-parameters of CMA-ES are far from being optimal, and\nthat self-CMA-ES allows for dynamically approaching optimal settings.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1407.6513",
+        "title": "Convolutional Neural Associative Memories: Massive Capacity with Noise\n  Tolerance",
+        "abstract": "  The task of a neural associative memory is to retrieve a set of previously\nmemorized patterns from their noisy versions using a network of neurons. An\nideal network should have the ability to 1) learn a set of patterns as they\narrive, 2) retrieve the correct patterns from noisy queries, and 3) maximize\nthe pattern retrieval capacity while maintaining the reliability in responding\nto queries. The majority of work on neural associative memories has focused on\ndesigning networks capable of memorizing any set of randomly chosen patterns at\nthe expense of limiting the retrieval capacity. In this paper, we show that if\nwe target memorizing only those patterns that have inherent redundancy (i.e.,\nbelong to a subspace), we can obtain all the aforementioned properties. This is\nin sharp contrast with the previous work that could only improve one or two\naspects at the expense of the third. More specifically, we propose framework\nbased on a convolutional neural network along with an iterative algorithm that\nlearns the redundancy among the patterns. The resulting network has a retrieval\ncapacity that is exponential in the size of the network. Moreover, the\nasymptotic error correction performance of our network is linear in the size of\nthe patterns. We then ex- tend our approach to deal with patterns lie\napproximately in a subspace. This extension allows us to memorize datasets\ncontaining natural patterns (e.g., images). Finally, we report experimental\nresults on both synthetic and real datasets to support our claims.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1407.7211",
+        "title": "An evolutionary solver for linear integer programming",
+        "abstract": "  In this paper we introduce an evolutionary algorithm for the solution of\nlinear integer programs. The strategy is based on the separation of the\nvariables into the integer subset and the continuous subset; the integer\nvariables are fixed by the evolutionary system, and the continuous ones are\ndetermined in function of them, by a linear program solver.\n  We report results obtained for some standard benchmark problems, and compare\nthem with those obtained by branch-and-bound. The performance of the\nevolutionary algorithm is promising. Good feasible solutions were generally\nobtained, and in some of the difficult benchmark tests it outperformed\nbranch-and-bound.\n",
+        "categories": "cs.NE cs.AI math.OC"
+    },
+    {
+        "id": "1409.8484",
+        "title": "An agent-driven semantical identifier using radial basis neural networks\n  and reinforcement learning",
+        "abstract": "  Due to the huge availability of documents in digital form, and the deception\npossibility raise bound to the essence of digital documents and the way they\nare spread, the authorship attribution problem has constantly increased its\nrelevance. Nowadays, authorship attribution,for both information retrieval and\nanalysis, has gained great importance in the context of security, trust and\ncopyright preservation. This work proposes an innovative multi-agent driven\nmachine learning technique that has been developed for authorship attribution.\nBy means of a preprocessing for word-grouping and time-period related analysis\nof the common lexicon, we determine a bias reference level for the recurrence\nfrequency of the words within analysed texts, and then train a Radial Basis\nNeural Networks (RBPNN)-based classifier to identify the correct author. The\nmain advantage of the proposed approach lies in the generality of the semantic\nanalysis, which can be applied to different contexts and lexical domains,\nwithout requiring any modification. Moreover, the proposed system is able to\nincorporate an external input, meant to tune the classifier, and then\nself-adjust by means of continuous learning reinforcement.\n",
+        "categories": "cs.NE cs.AI cs.CL cs.LG cs.MA"
+    },
+    {
+        "id": "1410.0547",
+        "title": "Design Mining Interacting Wind Turbines",
+        "abstract": "  An initial study of surrogate-assisted evolutionary algorithms used to design\nvertical-axis wind turbines wherein candidate prototypes are evaluated under\nfan generated wind conditions after being physically instantiated by a 3D\nprinter has recently been presented. Unlike other approaches, such as\ncomputational fluid dynamics simulations, no mathematical formulations were\nused and no model assumptions were made. This paper extends that work by\nexploring alternative surrogate modelling and evolutionary techniques. The\naccuracy of various modelling algorithms used to estimate the fitness of\nevaluated individuals from the initial experiments is compared. The effect of\ntemporally windowing surrogate model training samples is explored. A\nsurrogate-assisted approach based on an enhanced local search is introduced;\nand alternative coevolution collaboration schemes are examined.\n",
+        "categories": "cs.NE cs.AI cs.CE"
+    },
+    {
+        "id": "1410.4615",
+        "title": "Learning to Execute",
+        "abstract": "  Recurrent Neural Networks (RNNs) with Long Short-Term Memory units (LSTM) are\nwidely used because they are expressive and are easy to train. Our interest\nlies in empirically evaluating the expressiveness and the learnability of LSTMs\nin the sequence-to-sequence regime by training them to evaluate short computer\nprograms, a domain that has traditionally been seen as too complex for neural\nnetworks. We consider a simple class of programs that can be evaluated with a\nsingle left-to-right pass using constant memory. Our main result is that LSTMs\ncan learn to map the character-level representations of such programs to their\ncorrect outputs. Notably, it was necessary to use curriculum learning, and\nwhile conventional curriculum learning proved ineffective, we developed a new\nvariant of curriculum learning that improved our networks' performance in all\nexperimental conditions. The improved curriculum had a dramatic impact on an\naddition problem, making it possible to train an LSTM to add two 9-digit\nnumbers with 99% accuracy.\n",
+        "categories": "cs.NE cs.AI cs.LG"
+    },
+    {
+        "id": "1411.4379",
+        "title": "FGPGA: An Efficient Genetic Approach for Producing Feasible Graph\n  Partitions",
+        "abstract": "  Graph partitioning, a well studied problem of parallel computing has many\napplications in diversified fields such as distributed computing, social\nnetwork analysis, data mining and many other domains. In this paper, we\nintroduce FGPGA, an efficient genetic approach for producing feasible graph\npartitions. Our method takes into account the heterogeneity and capacity\nconstraints of the partitions to ensure balanced partitioning. Such approach\nhas various applications in mobile cloud computing that include feasible\ndeployment of software applications on the more resourceful infrastructure in\nthe cloud instead of mobile hand set. Our proposed approach is light weight and\nhence suitable for use in cloud architecture. We ensure feasibility of the\npartitions generated by not allowing over-sized partitions to be generated\nduring the initialization and search. Our proposed method tested on standard\nbenchmark datasets significantly outperforms the state-of-the-art methods in\nterms of quality of partitions and feasibility of the solutions.\n",
+        "categories": "cs.NE cs.AI cs.DC"
+    },
+    {
+        "id": "1411.6768",
+        "title": "Hypotheses of neural code and the information model of the\n  neuron-detector",
+        "abstract": "  This paper deals with the problem of neural code solving. On the basis of the\nformulated hypotheses the information model of a neuron-detector is suggested,\nthe detector being one of the basic elements of an artificial neural network\n(ANN). The paper subjects the connectionist paradigm of ANN building to\ncriticism and suggests a new presentation paradigm for ANN building and\nneuroelements (NE) learning. The adequacy of the suggested model is proved by\nthe fact that is does not contradict the modern propositions of neuropsychology\nand neurophysiology.\n",
+        "categories": "cs.NE cs.AI q-bio.NC"
+    },
+    {
+        "id": "1411.7806",
+        "title": "Two Gaussian Approaches to Black-Box Optomization",
+        "abstract": "  Outline of several strategies for using Gaussian processes as surrogate\nmodels for the covariance matrix adaptation evolution strategy (CMA-ES).\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1412.2186",
+        "title": "Using Artificial Neural Network Techniques for Prediction of Electric\n  Energy Consumption",
+        "abstract": "  Due to imprecision and uncertainties in predicting real world problems,\nartificial neural network (ANN) techniques have become increasingly useful for\nmodeling and optimization. This paper presents an artificial neural network\napproach for forecasting electric energy consumption. For effective planning\nand operation of power systems, optimal forecasting tools are needed for energy\noperators to maximize profit and also to provide maximum satisfaction to energy\nconsumers. Monthly data for electric energy consumed in the Gaza strip was\ncollected from year 1994 to 2013. Data was trained and the proposed model was\nvalidated using 2-Fold and K-Fold cross validation techniques. The model has\nbeen tested with actual energy consumption data and yields satisfactory\nperformance.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1412.3714",
+        "title": "Feature Weight Tuning for Recursive Neural Networks",
+        "abstract": "  This paper addresses how a recursive neural network model can automatically\nleave out useless information and emphasize important evidence, in other words,\nto perform \"weight tuning\" for higher-level representation acquisition. We\npropose two models, Weighted Neural Network (WNN) and Binary-Expectation Neural\nNetwork (BENN), which automatically control how much one specific unit\ncontributes to the higher-level representation. The proposed model can be\nviewed as incorporating a more powerful compositional function for embedding\nacquisition in recursive neural networks. Experimental results demonstrate the\nsignificant improvement over standard neural models.\n",
+        "categories": "cs.NE cs.AI cs.CL cs.LG"
+    },
+    {
+        "id": "1412.5513",
+        "title": "Towards a constructive multilayer perceptron for regression task using\n  non-parametric clustering. A case study of Photo-Z redshift reconstruction",
+        "abstract": "  The choice of architecture of artificial neuron network (ANN) is still a\nchallenging task that users face every time. It greatly affects the accuracy of\nthe built network. In fact there is no optimal method that is applicable to\nvarious implementations at the same time. In this paper we propose a method to\nconstruct ANN based on clustering, that resolves the problems of random and ad\nhoc approaches for multilayer ANN architecture. Our method can be applied to\nregression problems. Experimental results obtained with different datasets,\nreveals the efficiency of our method.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1412.6464",
+        "title": "Simplified firefly algorithm for 2D image key-points search",
+        "abstract": "  In order to identify an object, human eyes firstly search the field of view\nfor points or areas which have particular properties. These properties are used\nto recognise an image or an object. Then this process could be taken as a model\nto develop computer algorithms for images identification. This paper proposes\nthe idea of applying the simplified firefly algorithm to search for key-areas\nin 2D images. For a set of input test images the proposed version of firefly\nalgorithm has been examined. Research results are presented and discussed to\nshow the efficiency of this evolutionary computation method.\n",
+        "categories": "cs.NE cs.AI cs.CV"
+    },
+    {
+        "id": "1501.02192",
+        "title": "Investigation of a chaotic spiking neuron model",
+        "abstract": "  Chaos provides many interesting properties that can be used to achieve\ncomputational tasks. Such properties are sensitivity to initial conditions,\nspace filling, control and synchronization. Chaotic neural models have been\ndevised to exploit such properties. In this paper, a chaotic spiking neuron\nmodel is investigated experimentally. This investigation is performed to\nunderstand the dynamic behaviours of the model.\n  The aim of this research is to investigate the dynamics of the nonlinear\ndynamic state neuron (NDS) experimentally. The experimental approach has\nrevealed some quantitative and qualitative properties of the NDS model such as\nthe control mechanism, the reset mechanism, and the way the model may exhibit\ndynamic behaviours in phase space. It is shown experimentally in this paper\nthat both the reset mechanism and the self-feed back control mechanism are\nimportant for the NDS model to work and to stabilise to one of the large number\nof available unstable periodic orbits (UPOs) that are embedded in its\nattractor. The experimental investigation suggests that the internal dynamics\nof the NDS neuron provide a rich set of dynamic behaviours that can be\ncontrolled and stabilised. These wide range of dynamic behaviours may be\nexploited to carry out information processing tasks.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1502.00130",
+        "title": "The Search for Computational Intelligence",
+        "abstract": "  We define and explore in simulation several rules for the local evolution of\ngenerative rules for 1D and 2D cellular automata. Our implementation uses\nstrategies from conceptual blending. We discuss potential applications to\nmodelling social dynamics.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1504.04914",
+        "title": "Negatively Correlated Search",
+        "abstract": "  Evolutionary Algorithms (EAs) have been shown to be powerful tools for\ncomplex optimization problems, which are ubiquitous in both communication and\nbig data analytics. This paper presents a new EA, namely Negatively Correlated\nSearch (NCS), which maintains multiple individual search processes in parallel\nand models the search behaviors of individual search processes as probability\ndistributions. NCS explicitly promotes negatively correlated search behaviors\nby encouraging differences among the probability distributions (search\nbehaviors). By this means, individual search processes share information and\ncooperate with each other to search diverse regions of a search space, which\nmakes NCS a promising method for non-convex optimization. The cooperation\nscheme of NCS could also be regarded as a novel diversity preservation scheme\nthat, different from other existing schemes, directly promotes diversity at the\nlevel of search behaviors rather than merely trying to maintain diversity among\ncandidate solutions. Empirical studies showed that NCS is competitive to\nwell-established search methods in the sense that NCS achieved the best overall\nperformance on 20 multimodal (non-convex) continuous optimization problems. The\nadvantages of NCS over state-of-the-art approaches are also demonstrated with a\ncase study on the synthesis of unequally spaced linear antenna arrays.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1506.01072",
+        "title": "Homogeneous Spiking Neuromorphic System for Real-World Pattern\n  Recognition",
+        "abstract": "  A neuromorphic chip that combines CMOS analog spiking neurons and memristive\nsynapses offers a promising solution to brain-inspired computing, as it can\nprovide massive neural network parallelism and density. Previous hybrid analog\nCMOS-memristor approaches required extensive CMOS circuitry for training, and\nthus eliminated most of the density advantages gained by the adoption of\nmemristor synapses. Further, they used different waveforms for pre and\npost-synaptic spikes that added undesirable circuit overhead. Here we describe\na hardware architecture that can feature a large number of memristor synapses\nto learn real-world patterns. We present a versatile CMOS neuron that combines\nintegrate-and-fire behavior, drives passive memristors and implements\ncompetitive learning in a compact circuit module, and enables in-situ\nplasticity in the memristor synapses. We demonstrate handwritten-digits\nrecognition using the proposed architecture using transistor-level circuit\nsimulations. As the described neuromorphic architecture is homogeneous, it\nrealizes a fundamental building block for large-scale energy-efficient\nbrain-inspired silicon chips that could lead to next-generation cognitive\ncomputing.\n",
+        "categories": "cs.NE cs.AI cs.CV cs.ET"
+    },
+    {
+        "id": "1506.02750",
+        "title": "Self Organizing Maps Whose Topologies Can Be Learned With Adaptive\n  Binary Search Trees Using Conditional Rotations",
+        "abstract": "  Numerous variants of Self-Organizing Maps (SOMs) have been proposed in the\nliterature, including those which also possess an underlying structure, and in\nsome cases, this structure itself can be defined by the user Although the\nconcepts of growing the SOM and updating it have been studied, the whole issue\nof using a self-organizing Adaptive Data Structure (ADS) to further enhance the\nproperties of the underlying SOM, has been unexplored. In an earlier work, we\nimpose an arbitrary, user-defined, tree-like topology onto the codebooks, which\nconsequently enforced a neighborhood phenomenon and the so-called tree-based\nBubble of Activity. In this paper, we consider how the underlying tree itself\ncan be rendered dynamic and adaptively transformed. To do this, we present\nmethods by which a SOM with an underlying Binary Search Tree (BST) structure\ncan be adaptively re-structured using Conditional Rotations (CONROT). These\nrotations on the nodes of the tree are local, can be done in constant time, and\nperformed so as to decrease the Weighted Path Length (WPL) of the entire tree.\nIn doing this, we introduce the pioneering concept referred to as Neural\nPromotion, where neurons gain prominence in the Neural Network (NN) as their\nsignificance increases. We are not aware of any research which deals with the\nissue of Neural Promotion. The advantages of such a scheme is that the user\nneed not be aware of any of the topological peculiarities of the stochastic\ndata distribution. Rather, the algorithm, referred to as the TTOSOM with\nConditional Rotations (TTOCONROT), converges in such a manner that the neurons\nare ultimately placed in the input space so as to represent its stochastic\ndistribution, and additionally, the neighborhood properties of the neurons suit\nthe best BST that represents the data. These properties have been confirmed by\nour experimental results on a variety of data sets.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1506.05424",
+        "title": "Hybrid Algorithm for Multi-Objective Optimization by Greedy Hypervolume\n  Maximization",
+        "abstract": "  This paper introduces a high-performance hybrid algorithm, called Hybrid\nHypervolume Maximization Algorithm (H2MA), for multi-objective optimization\nthat alternates between exploring the decision space and exploiting the already\nobtained non-dominated solutions. The proposal is centered on maximizing the\nhypervolume indicator, thus converting the multi-objective problem into a\nsingle-objective one. The exploitation employs gradient-based methods, but\nconsidering a single candidate efficient solution at a time, to overcome\nlimitations associated with population-based approaches and also to allow an\neasy control of the number of solutions provided. There is an interchange\nbetween two steps. The first step is a deterministic local exploration, endowed\nwith an automatic procedure to detect stagnation. When stagnation is detected,\nthe search is switched to a second step characterized by a stochastic global\nexploration using an evolutionary algorithm. Using five ZDT benchmarks with 30\nvariables, the performance of the new algorithm is compared to state-of-the-art\nalgorithms for multi-objective optimization, more specifically NSGA-II, SPEA2,\nand SMS-EMOA. The solutions found by the H2MA guide to higher hypervolume and\nsmaller distance to the true Pareto frontier with significantly less function\nevaluations, even when the gradient is estimated numerically. Furthermore,\nalthough only continuous decision spaces have been considered here, discrete\ndecision spaces could also have been treated, replacing gradient-based search\nby hill-climbing. Finally, a thorough explanation is provided to support the\nexpressive gain in performance that was achieved.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1506.08781",
+        "title": "On Design Mining: Coevolution and Surrogate Models",
+        "abstract": "  Design mining is the use of computational intelligence techniques to\niteratively search and model the attribute space of physical objects evaluated\ndirectly through rapid prototyping to meet given objectives. It enables the\nexploitation of novel materials and processes without formal models or complex\nsimulation. In this paper, we focus upon the coevolutionary nature of the\ndesign process when it is decomposed into concurrent sub-design threads due to\nthe overall complexity of the task. Using an abstract, tuneable model of\ncoevolution we consider strategies to sample sub-thread designs for whole\nsystem testing and how best to construct and use surrogate models within the\ncoevolutionary scenario. Drawing on our findings, the paper then describes the\neffective design of an array of six heterogeneous vertical-axis wind turbines.\n",
+        "categories": "cs.NE cs.AI cs.CE cs.LG"
+    },
+    {
+        "id": "1507.08467",
+        "title": "A Model for Foraging Ants, Controlled by Spiking Neural Networks and\n  Double Pheromones",
+        "abstract": "  A model of an Ant System where ants are controlled by a spiking neural\ncircuit and a second order pheromone mechanism in a foraging task is presented.\nA neural circuit is trained for individual ants and subsequently the ants are\nexposed to a virtual environment where a swarm of ants performed a resource\nforaging task. The model comprises an associative and unsupervised learning\nstrategy for the neural circuit of the ant. The neural circuit adapts to the\nenvironment by means of classical conditioning. The initially unknown\nenvironment includes different types of stimuli representing food and obstacles\nwhich, when they come in direct contact with the ant, elicit a reflex response\nin the motor neural system of the ant: moving towards or away from the source\nof the stimulus. The ants are released on a landscape with multiple food\nsources where one ant alone would have difficulty harvesting the landscape to\nmaximum efficiency. The introduction of a double pheromone mechanism yields\nbetter results than traditional ant colony optimization strategies. Traditional\nant systems include mainly a positive reinforcement pheromone. This approach\nuses a second pheromone that acts as a marker for forbidden paths (negative\nfeedback). This blockade is not permanent and is controlled by the evaporation\nrate of the pheromones. The combined action of both pheromones acts as a\ncollective stigmergic memory of the swarm, which reduces the search space of\nthe problem. This paper explores how the adaptation and learning abilities\nobserved in biologically inspired cognitive architectures is synergistically\nenhanced by swarm optimization strategies. The model portraits two forms of\nartificial intelligent behaviour: at the individual level the spiking neural\nnetwork is the main controller and at the collective level the pheromone\ndistribution is a map towards the solution emerged by the colony.\n",
+        "categories": "cs.NE cs.AI"
+    },
+    {
+        "id": "1508.00457",
+        "title": "Evolutionary Multimodal Optimization: A Short Survey",
+        "abstract": "  Real world problems always have different multiple solutions. For instance,\noptical engineers need to tune the recording parameters to get as many optimal\nsolutions as possible for multiple trials in the varied-line-spacing\nholographic grating design problem. Unfortunately, most traditional\noptimization techniques focus on solving for a single optimal solution. They\nneed to be applied several times; yet all solutions are not guaranteed to be\nfound. Thus the multimodal optimization problem was proposed. In that problem,\nwe are interested in not only a single optimal point, but also the others. With\nstrong parallel search capability, evolutionary algorithms are shown to be\nparticularly effective in solving this type of problem. In particular, the\nevolutionary algorithms for multimodal optimization usually not only locate\nmultiple optima in a single run, but also preserve their population diversity\nthroughout a run, resulting in their global optimization ability on multimodal\nfunctions. In addition, the techniques for multimodal optimization are borrowed\nas diversity maintenance techniques to other problems. In this chapter, we\ndescribe and review the state-of-the-arts evolutionary algorithms for\nmultimodal optimization in terms of methodology, benchmarking, and application.\n",
+        "categories": "cs.NE cs.AI q-bio.QM"
+    },
+    {
+        "id": "1508.06538",
+        "title": "Causality, Information and Biological Computation: An algorithmic\n  software approach to life, disease and the immune system",
+        "abstract": "  Biology has taken strong steps towards becoming a computer science aiming at\nreprogramming nature after the realisation that nature herself has reprogrammed\norganisms by harnessing the power of natural selection and the digital\nprescriptive nature of replicating DNA. Here we further unpack ideas related to\ncomputability, algorithmic information theory and software engineering, in the\ncontext of the extent to which biology can be (re)programmed, and with how we\nmay go about doing so in a more systematic way with all the tools and concepts\noffered by theoretical computer science in a translation exercise from\ncomputing to molecular biology and back. These concepts provide a means to a\nhierarchical organization thereby blurring previously clear-cut lines between\nconcepts like matter and life, or between tumour types that are otherwise taken\nas different and may not have however a different cause. This does not diminish\nthe properties of life or make its components and functions less interesting.\nOn the contrary, this approach makes for a more encompassing and integrated\nview of nature, one that subsumes observer and observed within the same system,\nand can generate new perspectives and tools with which to view complex diseases\nlike cancer, approaching them afresh from a software-engineering viewpoint that\ncasts evolution in the role of programmer, cells as computing machines, DNA and\ngenes as instructions and computer programs, viruses as hacking devices, the\nimmune system as a software debugging tool, and diseases as an\ninformation-theoretic battlefield where all these forces deploy. We show how\ninformation theory and algorithmic programming may explain fundamental\nmechanisms of life and death.\n",
+        "categories": "cs.NE cs.AI"
+    }
+]
