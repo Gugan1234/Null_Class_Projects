@@ -1,4 +1,4 @@
-#2. Implement a system for dynamically expanding the chatbot's knowledge base. Create a mechanism to periodically update the vector database with new information from specified sources. Expected Outcome: A chatbot that can automatically incorporate new information into its responses over time.
+# 2. Implement a system for dynamically expanding the chatbot's knowledge base. Create a mechanism to periodically update the vector database with new information from specified sources. Expected Outcome: A chatbot that can automatically incorporate new information into its responses over time.
 
 # myapp.py
 - This file uses webscrapping method to fetch the information form the site and uses CAG operation (CACHE AUGMENTED GENERATION)
